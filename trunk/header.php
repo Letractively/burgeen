@@ -1,4 +1,4 @@
-<?php if ( !defined( 'ABSPATH' ) ) : exit; endif;
+<?php if ( !defined( 'ABSPATH' ) ) : exit; endif;session_start();
 
 	global
 		$theme_options,
@@ -86,29 +86,11 @@
 						<?php ;
 			
 						endif;
-			
-						// Search form
+															
+						// Search form (LOGIN)
 						if ($panda_he['searchform'] == 'enable') : ?>
-							<div id="hsearch" class="hmisc fr div-as-table">
-								<div>
-									<div id="topsearch">
-									<form id="searchform" method="get" action="<?php echo get_option('home'); ?>/">
-										<div>
-										<input 
-											type="text" 
-											value="<?php _e('Search...','pandathemes') ?>" 
-											onblur="this.value=(this.value=='') ? '<?php _e('Search...','pandathemes') ?>' : this.value;"
-											onfocus="this.value=(this.value=='<?php _e('Search...','pandathemes') ?>') ? '' : this.value;"
-											maxlength="150" 
-											name="s"
-											id="s"
-											class="searchfield"
-										/>
-										<input type="submit" value="&nbsp;" id="searchsubmit">
-										</div>
-									</form>
-									</div>
-								</div>
+							<div id="hsearch" class="hmisc fr div-as-table"><?php if($_SESSION[login]=='' or $_SESSION[login]=='failed') { ?>							
+<form id="login_form"  method="get" action="<?php echo bloginfo('template_url') ?>/login_process.php">    <p >       Login:        <input type="text" name="user_login" id="user_login" placeholder="Username" style="width:80px">    </p>    <p >               <input type="password" name="user_password" id="user_password" placeholder="Password" style="width:80px">		&nbsp;&nbsp;    </p>       <p>        <input type="submit" name="submit" value="Sign In">		<a href="http://127.0.0.1/wordpress2/register-user/">Sign Up</a>    </p> 	</form><?php }else{echo "</br>";echo "Welcome <b>".$_SESSION[username]."</b> &nbsp&nbsp&nbsp";?></br><a href='http://127.0.0.1/wordpress2/edit-profile/'>edit profile</a></br><a href='<?php echo bloginfo('template_url') ?>/logout.php'>Logout</a><?php}?>
 							</div>
 							<?php ;
 						endif;
