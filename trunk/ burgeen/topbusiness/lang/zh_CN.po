@@ -1,0 +1,4101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pandathemes.com\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-09 20:49+0800\n"
+"PO-Revision-Date: 2012-07-09 21:11+0800\n"
+"Last-Translator: ben wei <laowei2002@gmail.com>\n"
+"Language-Team: PandaThemes <info@pandathemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:17
+#: ../archive.php:386
+#: ../page-blank.php:47
+#: ../page.php:58
+#: ../single.php:130
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起，没有符合条件的文章"
+
+#: ../404.php:23
+msgid "Categories"
+msgstr "分类"
+
+#: ../404.php:33
+msgid "Archives"
+msgstr "存档"
+
+#: ../archive-blog.php:63
+#: ../archive.php:227
+#: ../archive.php:363
+#: ../index.php:40
+#: ../products.php:105
+#: ../search.php:67
+msgid "Older Entries"
+msgstr "较早条目"
+
+#: ../archive-blog.php:63
+#: ../archive.php:227
+#: ../archive.php:363
+#: ../index.php:40
+#: ../products.php:105
+#: ../search.php:67
+msgid "Newer Entries"
+msgstr "最新条目"
+
+#: ../archive.php:27
+#: ../archive.php:297
+#: ../page.php:37
+#: ../products.php:56
+#: ../search.php:14
+#: ../single.php:33
+msgid "Browse:"
+msgstr "浏览："
+
+#: ../archive.php:28
+#: ../archive.php:298
+#: ../functions.php:134
+#: ../page.php:38
+#: ../products.php:57
+#: ../search.php:15
+#: ../single.php:34
+msgid "Home"
+msgstr "首页"
+
+#: ../archive.php:46
+msgid "Daily archives"
+msgstr "按天存档"
+
+#: ../archive.php:56
+msgid "Monthly archives"
+msgstr "按月存档"
+
+#: ../archive.php:65
+msgid "Yearly archives"
+msgstr "按年存档"
+
+#: ../archive.php:86
+#: ../archive.php:105
+#: ../search.php:41
+msgid "Entries found"
+msgstr "条目找到"
+
+#: ../archive.php:101
+msgid "Search by tag"
+msgstr "按标签搜索"
+
+#: ../archive.php:121
+msgid "Subscribe to this category"
+msgstr "订阅这个类别"
+
+#: ../archive.php:125
+msgid "Posts"
+msgstr "文章"
+
+#: ../archive.php:178
+msgid "Created on"
+msgstr "创建于"
+
+#: ../archive.php:178
+msgid "Posts written"
+msgstr "文章写"
+
+#: ../archive.php:190
+msgid "All posts written by"
+msgstr "全部文章写于"
+
+#: ../archive.php:269
+#: ../products.php:29
+#: ../single-product.php:79
+msgid "All"
+msgstr "全部"
+
+#: ../comments.php:32
+msgid "Reviews are closed."
+msgstr "评论被关闭。"
+
+#: ../comments.php:38
+msgid "Show review form"
+msgstr "显示评价来自"
+
+#: ../comments.php:46
+msgid "Write a Review"
+msgstr "写点评"
+
+#: ../comments.php:49
+msgid "Your rate:"
+msgstr "你的评价："
+
+#: ../comments.php:51
+msgid "Very bad"
+msgstr "非常差"
+
+#: ../comments.php:52
+msgid "No good"
+msgstr "不好"
+
+#: ../comments.php:53
+msgid "So-so"
+msgstr "马马虎虎"
+
+#: ../comments.php:54
+msgid "Good"
+msgstr "不错"
+
+#: ../comments.php:55
+msgid "Excellent"
+msgstr "优秀"
+
+#: ../comments.php:68
+#: ../comments.php:69
+#: ../comments.php:70
+#: ../comments.php:159
+#: ../comments.php:160
+#: ../comments.php:161
+#: ../comments.php:337
+#: ../comments.php:338
+#: ../comments.php:339
+#: ../comments.php:431
+#: ../comments.php:432
+#: ../comments.php:433
+msgid "Enter here"
+msgstr "在这里输入"
+
+#: ../comments.php:74
+#: ../comments.php:165
+#: ../comments.php:344
+#: ../comments.php:437
+msgid "Logged in as"
+msgstr "登录为"
+
+#: ../comments.php:74
+#: ../comments.php:165
+#: ../comments.php:344
+#: ../comments.php:437
+msgid "Log out"
+msgstr "退出"
+
+#: ../comments.php:84
+#: ../comments.php:85
+#: ../comments.php:86
+#: ../comments.php:175
+#: ../comments.php:176
+#: ../comments.php:177
+#: ../comments.php:355
+#: ../comments.php:356
+#: ../comments.php:357
+#: ../comments.php:447
+#: ../comments.php:448
+#: ../comments.php:449
+msgid "Name"
+msgstr "姓名"
+
+#: ../comments.php:91
+#: ../comments.php:106
+#: ../comments.php:182
+#: ../comments.php:197
+#: ../comments.php:362
+#: ../comments.php:377
+#: ../comments.php:454
+#: ../comments.php:469
+msgid "* required"
+msgstr "* 必填"
+
+#: ../comments.php:99
+#: ../comments.php:100
+#: ../comments.php:101
+#: ../comments.php:190
+#: ../comments.php:191
+#: ../comments.php:192
+#: ../comments.php:370
+#: ../comments.php:371
+#: ../comments.php:372
+#: ../comments.php:462
+#: ../comments.php:463
+#: ../comments.php:464
+msgid "Mail"
+msgstr "Mail"
+
+#: ../comments.php:106
+#: ../comments.php:197
+#: ../comments.php:377
+#: ../comments.php:469
+msgid "will not be published"
+msgstr "将不会被发布"
+
+#: ../comments.php:114
+#: ../comments.php:115
+#: ../comments.php:116
+#: ../comments.php:389
+#: ../comments.php:390
+#: ../comments.php:391
+msgid "Website"
+msgstr "网址"
+
+#: ../comments.php:135
+msgid "Submit Review"
+msgstr "提交评价"
+
+#: ../comments.php:151
+#: ../comments.php:423
+msgid "Reply to:"
+msgstr "回复给："
+
+#: ../comments.php:213
+#: ../comments.php:485
+msgid "Reply"
+msgstr "回复"
+
+#: ../comments.php:244
+msgid "Comments"
+msgstr "评论"
+
+#: ../comments.php:247
+msgid "Trackbacks"
+msgstr "引用"
+
+#: ../comments.php:252
+msgid "About post"
+msgstr "关于文章"
+
+#: ../comments.php:271
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "本文受密码保护。输入密码以查看评论。"
+
+#: ../comments.php:301
+msgid "&larr; Older Comments"
+msgstr "&larr; 较早评论"
+
+#: ../comments.php:302
+msgid "Newer Comments &rarr;"
+msgstr "最新评论 &rarr;"
+
+#: ../comments.php:310
+msgid "Comments are closed."
+msgstr "评论被关闭"
+
+#: ../comments.php:317
+msgid "You must be logged in to post a comment."
+msgstr "你必须登录才能发表评论"
+
+#: ../comments.php:317
+msgid "Log in"
+msgstr "登录"
+
+#: ../comments.php:321
+msgid "Show comment form"
+msgstr "显示评论来自"
+
+#: ../comments.php:329
+msgid "Leave a Reply"
+msgstr "发表回复"
+
+#: ../comments.php:407
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: ../comments.php:543
+msgid "posted on"
+msgstr "发表在"
+
+#: ../comments.php:553
+msgid "in"
+msgstr "in"
+
+#: ../comments.php:564
+msgid "tagged"
+msgstr "标签"
+
+#: ../comments.php:576
+msgid "about author"
+msgstr "关于作者"
+
+#: ../comments.php:621
+msgid "All posts by this author"
+msgstr "全部文章是这个作者发布"
+
+#: ../functions.php:488
+msgid "Sorry, you can not browse this website."
+msgstr "对不起，你不能浏览这个网站"
+
+#: ../functions.php:489
+msgid "Because you are using an outdated version of MS Internet Explorer. For a better experience using websites, please upgrade to a modern web browser."
+msgstr "因为你正使用微软较早的IE浏览器，为了你能正常访问本站，建议你升级到最新版的浏览器"
+
+#: ../functions.php:666
+msgid "Custom gravatar"
+msgstr "自定义gravatar"
+
+#: ../header.php:99
+#: ../header.php:100
+#: ../header.php:101
+msgid "Search..."
+msgstr "搜索..."
+
+#: ../header.php:219
+msgid "Select a page &crarr;"
+msgstr "选择一个页面 &crarr;"
+
+#: ../page-blank.php:40
+#: ../page.php:51
+msgid "Pages"
+msgstr "页面"
+
+#: ../page.php:29
+#: ../products.php:50
+#: ../single-product.php:109
+#: ../single.php:103
+msgid "edit"
+msgstr "编辑"
+
+#: ../search.php:37
+msgid "Search results for &laquo;"
+msgstr "搜索结果 &laquo;"
+
+#: ../search.php:71
+msgid "Nothing found"
+msgstr "什么也没找到"
+
+#: ../search.php:73
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "对不起，没有符合您搜索条件的结果。请再次尝试不同的关键字。"
+
+#: ../single-product.php:38
+msgid "Live demo"
+msgstr "演示地址"
+
+#: ../registration/activate.php:20
+msgid "Account Activated"
+msgstr "帐户激活"
+
+#: ../registration/activate.php:28
+msgid "Your account was activated successfully! Your account details have been sent to you in a separate email."
+msgstr "你的账户成功激活！你的账户详情已经通过email分开发送"
+
+#: ../registration/activate.php:32
+msgid "Your account was activated successfully! You can now log in with the username and password you provided when you signed up."
+msgstr "你的账户成功激活！你现在用你注册输入的账户密码登录"
+
+#: ../registration/activate.php:38
+msgid "Activate your Account"
+msgstr "激活你的账户"
+
+#: ../registration/activate.php:42
+msgid "Please provide a valid activation key."
+msgstr "请提供一个有效的激活密钥。"
+
+#: ../registration/activate.php:46
+msgid "Activation Key:"
+msgstr "激活密匙："
+
+#: ../registration/activate.php:50
+msgid "Activate"
+msgstr "激活"
+
+#: ../registration/register.php:26
+msgid "User registration is currently not allowed."
+msgstr "目前不允许新用户注册。"
+
+#: ../registration/register.php:34
+msgid "Create an Account"
+msgstr "创建账户"
+
+#: ../registration/register.php:38
+msgid "Registering for this site is easy, just fill in the fields below and we'll get a new account set up for you in no time."
+msgstr "在本站轻松注册，只需填写下面的字段"
+
+#: ../registration/register.php:48
+msgid "Account Details"
+msgstr "账户详情"
+
+#: ../registration/register.php:50
+msgid "Username"
+msgstr "用户名"
+
+#: ../registration/register.php:50
+#: ../registration/register.php:54
+#: ../registration/register.php:58
+#: ../registration/register.php:62
+#: ../registration/register.php:97
+#: ../registration/register.php:107
+#: ../registration/register.php:117
+#: ../registration/register.php:131
+#: ../registration/register.php:147
+#: ../registration/register.php:171
+#: ../registration/register.php:189
+#: ../registration/register.php:255
+#: ../registration/register.php:273
+msgid "(required)"
+msgstr "(必填)"
+
+#: ../registration/register.php:54
+msgid "Email Address"
+msgstr "Email 地址"
+
+#: ../registration/register.php:58
+msgid "Choose a Password"
+msgstr "输入密码"
+
+#: ../registration/register.php:62
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: ../registration/register.php:78
+msgid "Profile Details"
+msgstr "简介详情"
+
+#: ../registration/register.php:157
+msgid "Clear"
+msgstr "清除"
+
+#: ../registration/register.php:249
+msgid "Blog Details"
+msgstr "博客详情"
+
+#: ../registration/register.php:251
+msgid "Yes, I would like to create a new site"
+msgstr "是，我想创建一个新网站"
+
+#: ../registration/register.php:255
+msgid "Blog URL"
+msgstr "博客URL"
+
+#: ../registration/register.php:273
+msgid "Site Title"
+msgstr "站点标题"
+
+#: ../registration/register.php:279
+msgid "I would like my site to appear in search engines, and in public listings around this network."
+msgstr "我想我的网站出现在搜索引擎中，并围绕这个网络的上市。"
+
+#: ../registration/register.php:283
+msgid "Yes"
+msgstr "是"
+
+#: ../registration/register.php:285
+msgid "No"
+msgstr "否"
+
+#: ../registration/register.php:303
+msgid "I have read and agree with <a href=\""
+msgstr "我已阅读并同意<a href=\""
+
+#: ../registration/register.php:307
+msgid "Complete Sign Up"
+msgstr "完成注册"
+
+#: ../registration/register.php:325
+msgid "Sign Up Complete!"
+msgstr "注册完成！"
+
+#: ../registration/register.php:335
+msgid "You have successfully created your account! To begin using this site you will need to activate your account via the email we have just sent to your address."
+msgstr "你已成功创建你的帐号，在使用之前请你到刚刚填写的邮箱中点击链接激活你的帐号"
+
+#: ../registration/register.php:339
+msgid "You have successfully created your account! Please log in using the username and password you have just created."
+msgstr "你已成功创建你的帐号，请使用你刚刚填写的帐号密码登录。"
+
+#: ../members/index.php:22
+msgid "Members Directory"
+msgstr "会员名录"
+
+#: ../members/index.php:41
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr "全部会员 <span>%s</span>"
+
+#: ../members/index.php:51
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr "我的朋友的 <span>%s</span>"
+
+#: ../members/index.php:78
+#: ../members/single/blogs.php:17
+#: ../members/single/forums.php:17
+#: ../members/single/friends.php:25
+#: ../members/single/groups.php:25
+msgid "Order By:"
+msgstr "排序："
+
+#: ../members/index.php:82
+#: ../members/single/blogs.php:21
+#: ../members/single/forums.php:21
+#: ../members/single/friends.php:29
+#: ../members/single/groups.php:29
+msgid "Last Active"
+msgstr "最后上线"
+
+#: ../members/index.php:83
+#: ../members/single/friends.php:30
+msgid "Newest Registered"
+msgstr "最新注册"
+
+#: ../members/index.php:89
+#: ../members/single/blogs.php:23
+#: ../members/single/friends.php:31
+#: ../members/single/groups.php:32
+msgid "Alphabetical"
+msgstr "按英文字母顺序"
+
+#: ../members/members-loop.php:122
+msgid "Sorry, no members were found."
+msgstr "对不起，没找到会员。"
+
+#: ../members/single/activity.php:17
+msgid "Show:"
+msgstr "显示："
+
+#: ../members/single/activity.php:21
+msgid "Everything"
+msgstr "一切"
+
+#: ../members/single/activity.php:22
+msgid "Updates"
+msgstr "更新"
+
+#: ../members/single/activity.php:37
+msgid "Friendships"
+msgstr "友谊"
+
+#: ../members/single/activity.php:45
+msgid "Forum Topics"
+msgstr "论坛主题"
+
+#: ../members/single/activity.php:46
+msgid "Forum Replies"
+msgstr "论坛回复"
+
+#: ../members/single/activity.php:52
+msgid "New Groups"
+msgstr "新组"
+
+#: ../members/single/activity.php:53
+msgid "Group Memberships"
+msgstr "组成员"
+
+#: ../members/single/blogs.php:22
+msgid "Newest"
+msgstr "最新"
+
+#: ../members/single/forums.php:22
+msgid "Most Posts"
+msgstr "热门文章"
+
+#: ../members/single/forums.php:23
+msgid "Unreplied"
+msgstr "没有回复"
+
+#: ../members/single/groups.php:30
+msgid "Most Members"
+msgstr "更多会员"
+
+#: ../members/single/groups.php:31
+msgid "Newly Created"
+msgstr "新创建"
+
+#: ../members/single/settings/delete-account.php:64
+msgid "Delete Account"
+msgstr "删除账户"
+
+#: ../members/single/settings/delete-account.php:70
+msgid "WARNING: Deleting your account will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr "警告：删除您的帐户将完全删除与它相关的所有内容。没有办法找回来，请小心使用此选项。"
+
+#: ../members/single/settings/delete-account.php:74
+msgid "I understand the consequences of deleting my account."
+msgstr "我明白我的帐户删除的后果。"
+
+#: ../members/single/settings/delete-account.php:80
+msgid "Delete My Account"
+msgstr "删除我的账户"
+
+#: ../members/single/settings/general.php:64
+msgid "General Settings"
+msgstr "常规设置"
+
+#: ../members/single/settings/general.php:70
+msgid "Current Password <span>(required to update email or change current password)</span>"
+msgstr "当前密码<span>(需要变更电子邮件地址或变更密码)</span>"
+
+#: ../members/single/settings/general.php:72
+msgid "Password Lost and Found"
+msgstr "密码丢失和找回"
+
+#: ../members/single/settings/general.php:72
+msgid "Lost your password?"
+msgstr "忘记密码？"
+
+#: ../members/single/settings/general.php:74
+msgid "Account Email"
+msgstr "账户Email"
+
+#: ../members/single/settings/general.php:78
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr "变更密码<span>(留空不作任何变动)</span>"
+
+#: ../members/single/settings/general.php:80
+msgid "New Password"
+msgstr "新密码"
+
+#: ../members/single/settings/general.php:82
+msgid "Repeat New Password"
+msgstr "重复新密码"
+
+#: ../members/single/settings/general.php:86
+#: ../members/single/settings/notifications.php:80
+#: ../members/single/profile/edit.php:148
+msgid "Save Changes"
+msgstr "保存设置"
+
+#: ../members/single/settings/notifications.php:64
+msgid "Email Notification"
+msgstr "Email 通知"
+
+#: ../members/single/settings/notifications.php:70
+msgid "Send a notification by email when:"
+msgstr "通过email 发送通知，当："
+
+#: ../members/single/profile/change-avatar.php:1
+msgid "Change Avatar"
+msgstr "更改头像"
+
+#: ../members/single/profile/change-avatar.php:9
+msgid "Your avatar will be used on your profile and throughout the site. If there is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your account email we will use that, or you can upload an image from your computer."
+msgstr "您的头像将用在您的个人资料和整个网站。如果有一个 <a href=\"http://gravatar.com\">Gravatar</a>帐户相同的电子邮件，我们将使用Gravatar，或者你可以从电脑上传图像。"
+
+#: ../members/single/profile/change-avatar.php:19
+msgid "Click below to select a JPG, GIF or PNG format photo from your computer and then click 'Upload Image' to proceed."
+msgstr "点击下面从您的计算机选择一个JPG，GIF或PNG格式的照片，然后点击“上传图片”。"
+
+#: ../members/single/profile/change-avatar.php:23
+msgid "Upload Image"
+msgstr "上传图像"
+
+#: ../members/single/profile/change-avatar.php:29
+msgid "If you'd like to delete your current avatar but not upload a new one, please use the delete avatar button."
+msgstr "如果您想删除您当前的头像，又不上传新的，请使用删除头像按钮。"
+
+#: ../members/single/profile/change-avatar.php:31
+msgid "Delete Avatar"
+msgstr "删除头像"
+
+#: ../members/single/profile/change-avatar.php:31
+msgid "Delete My Avatar"
+msgstr "删除我的头像"
+
+#: ../members/single/profile/change-avatar.php:39
+msgid "Crop Your New Avatar"
+msgstr "剪裁你的新头像"
+
+#: ../members/single/profile/change-avatar.php:41
+msgid "Avatar to crop"
+msgstr "剪裁头像"
+
+#: ../members/single/profile/change-avatar.php:43
+msgid "Avatar preview"
+msgstr "头像预览"
+
+#: ../members/single/profile/change-avatar.php:45
+msgid "Crop Image"
+msgstr "剪裁图像"
+
+#: ../members/single/profile/change-avatar.php:63
+msgid "Your avatar will be used on your profile and throughout the site. To change your avatar, please create an account with <a href=\"http://gravatar.com\">Gravatar</a> using the same email address as you used to register with this site."
+msgstr "你的头像将用在整个网站或个人资料上。改变头像，请创建<a href=\"http://gravatar.com\">Gravatar</a>账户并使用相同的邮件地址注册本站。"
+
+#: ../members/single/profile/edit.php:22
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr "编辑 '%s' 简介"
+
+#: ../members/single/profile/profile-wp.php:11
+msgid "My Profile"
+msgstr "个人简介"
+
+#: ../members/single/profile/profile-wp.php:11
+#, php-format
+msgid "%s's Profile"
+msgstr "%s's 简介"
+
+#: ../members/single/profile/profile-wp.php:29
+msgid "About Me"
+msgstr "关于我"
+
+#: ../members/single/profile/profile-wp.php:47
+msgid "Jabber"
+msgstr "灌水"
+
+#: ../members/single/profile/profile-wp.php:56
+msgid "AOL Messenger"
+msgstr "美国在线信息"
+
+#: ../members/single/profile/profile-wp.php:65
+msgid "Yahoo Messenger"
+msgstr "雅虎信息"
+
+#: ../members/single/messages/compose.php:5
+msgid "Send To (Username or Friend's Name)"
+msgstr "发送给 (用户或朋友)"
+
+#: ../members/single/messages/compose.php:25
+msgid "This is a notice to all users."
+msgstr "这是一个对所有用户的通知。"
+
+#: ../members/single/messages/compose.php:31
+msgid "Subject"
+msgstr "题目"
+
+#: ../members/single/messages/compose.php:35
+msgid "Message"
+msgstr "信息"
+
+#: ../members/single/messages/compose.php:43
+msgid "Send Message"
+msgstr "发送信息"
+
+#: ../members/single/messages/messages-loop.php:39
+msgid "From:"
+msgstr "来自："
+
+#: ../members/single/messages/messages-loop.php:49
+msgid "To:"
+msgstr "给："
+
+#: ../members/single/messages/messages-loop.php:61
+msgid "View Message"
+msgstr "查看信息"
+
+#: ../members/single/messages/messages-loop.php:73
+#: ../members/single/messages/notices-loop.php:57
+#: ../members/single/messages/single.php:31
+msgid "Delete Message"
+msgstr "删除信息"
+
+#: ../members/single/messages/messages-loop.php:73
+#: ../members/single/messages/single.php:31
+msgid "Delete"
+msgstr "删除"
+
+#: ../members/single/messages/messages-loop.php:96
+msgid "Sorry, no messages were found."
+msgstr "很抱歉，没有消息。"
+
+#: ../members/single/messages/notices-loop.php:50
+msgid "Sent:"
+msgstr "发送："
+
+#: ../members/single/messages/notices-loop.php:72
+msgid "Sorry, no notices were found."
+msgstr "对不起，没有公告"
+
+#: ../members/single/messages/single.php:19
+msgid "You are alone in this conversation."
+msgstr "你独自一人在对话。"
+
+#: ../members/single/messages/single.php:23
+#, php-format
+msgid "Conversation between %s and you."
+msgstr "%s 和你在谈话"
+
+#: ../members/single/messages/single.php:91
+msgid "Send a Reply"
+msgstr "发送1个回复"
+
+#: ../members/single/messages/single.php:107
+msgid "Send Reply"
+msgstr "发送回复"
+
+#: ../members/single/groups/invites.php:17
+#, php-format
+msgid "%s members"
+msgstr "%s 成员"
+
+#: ../members/single/groups/invites.php:31
+#: ../members/single/friends/requests.php:44
+msgid "Accept"
+msgstr "接受"
+
+#: ../members/single/groups/invites.php:33
+#: ../members/single/friends/requests.php:45
+msgid "Reject"
+msgstr "拒绝"
+
+#: ../members/single/groups/invites.php:51
+msgid "You have no outstanding group invites."
+msgstr "你还没有优秀组邀请。"
+
+#: ../members/single/friends/requests.php:79
+msgid "You have no pending friendship requests."
+msgstr "您没有等待好友请求。"
+
+#: ../members/single/achievements/unlocked.php:11
+msgid "Recently Unlocked"
+msgstr "最近解锁"
+
+#: ../members/single/achievements/unlocked.php:13
+msgid "Event Count"
+msgstr "事件数目"
+
+#: ../members/single/achievements/unlocked.php:14
+msgid "Points"
+msgstr "点"
+
+#: ../inc/comments_callback.php:34
+#: ../inc/comments_rating.php:39
+msgid "at"
+msgstr "在"
+
+#: ../inc/comments_callback.php:35
+msgid "Edit"
+msgstr "编辑"
+
+#: ../inc/comments_callback.php:56
+msgid "Your comment is awaiting moderation."
+msgstr "你的评论等待审核"
+
+#: ../inc/comments_rating.php:44
+msgid "by:"
+msgstr "by:"
+
+#: ../inc/comments_rating.php:62
+msgid "Your message is awaiting moderation."
+msgstr "你的信息等待审核"
+
+#: ../inc/products/metas.php:8
+msgid "Description"
+msgstr "描述"
+
+#: ../inc/products/metas.php:11
+msgid "Specs"
+msgstr "规格"
+
+#: ../inc/products/metas.php:14
+msgid "Images"
+msgstr "图像"
+
+#: ../inc/products/metas.php:20
+msgid "Reviews"
+msgstr "评论"
+
+#: ../inc/products/related.php:37
+msgid "Related from:"
+msgstr "相关来自："
+
+#: ../inc/products/related.php:101
+#: ../inc/products/related.php:146
+#: ../inc/products/t1.php:66
+#: ../inc/products/t1.php:111
+#: ../inc/products/t2.php:127
+msgid "Learn more"
+msgstr "了解更多"
+
+#: ../inc/products/t2.php:69
+msgid "Learn more &raquo;"
+msgstr "查看更多 &raquo;"
+
+#: ../inc/posts/default.php:12
+#: ../inc/posts/t1.php:65
+#: ../inc/posts/t2.php:56
+msgid "Leave a reply"
+msgstr "发表回复"
+
+#: ../inc/posts/default.php:12
+#: ../inc/posts/t1.php:65
+#: ../inc/posts/t2.php:56
+msgid "1 Comment"
+msgstr "1 评论"
+
+#: ../inc/posts/default.php:12
+#: ../inc/posts/t1.php:65
+#: ../inc/posts/t2.php:56
+msgid "% Comments"
+msgstr "% 评论"
+
+#: ../inc/posts/default.php:23
+msgid "Read this post"
+msgstr "阅读本文"
+
+#: ../inc/posts/t1.php:72
+msgid "Read More"
+msgstr "阅读更多"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:314
+msgid "g:i a"
+msgstr "g:i a"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:317
+#, php-format
+msgid "Minute %1$s"
+msgstr "分钟 %1$s"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:317
+msgid "i"
+msgstr "i"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:320
+msgid "g a"
+msgstr "g a"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:331
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:337
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:342
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:347
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:411
+msgid "Y"
+msgstr "Y"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:332
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:343
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:415
+msgid "F"
+msgstr "F"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:333
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:419
+msgid "d"
+msgstr "d"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:338
+#, php-format
+msgid "Week %1$s"
+msgstr "周%1$s"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:354
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "搜索结果为 &quot;%1$s&quot;"
+
+#: ../inc/breadcrumb-trail/breadcrumb-trail.php:358
+msgid "404 Not Found"
+msgstr "404 找不到！"
+
+#: ../groups/create.php:18
+#: ../groups/index.php:22
+msgid "Create a Group"
+msgstr "创建1个组"
+
+#: ../groups/create.php:18
+#: ../groups/index.php:22
+msgid "Groups Directory"
+msgstr "群组目录"
+
+#: ../groups/create.php:53
+#: ../groups/single/admin.php:24
+msgid "Group Name (required)"
+msgstr "群组名 (必填)"
+
+#: ../groups/create.php:56
+#: ../groups/single/admin.php:28
+msgid "Group Description (required)"
+msgstr "群组描述（必填）"
+
+#: ../groups/create.php:84
+#: ../groups/single/admin.php:67
+msgid "Enable discussion forum"
+msgstr "启用论坛讨论"
+
+#: ../groups/create.php:94
+#, php-format
+msgid "<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s\">correct setup and configuration</a> of a bbPress installation."
+msgstr "<strong>注意网站管理:</strong>群组论坛要求 <a href=\"%s\">正确的安装和配置</a> 一个bbPress。"
+
+#: ../groups/create.php:106
+#: ../groups/single/admin.php:75
+msgid "Privacy Options"
+msgstr "隐私选项"
+
+#: ../groups/create.php:112
+#: ../groups/single/admin.php:81
+msgid "This is a public group"
+msgstr "这是公开群组"
+
+#: ../groups/create.php:115
+#: ../groups/single/admin.php:83
+msgid "Any site member can join this group."
+msgstr "任何网站的会员可以加入这一组。"
+
+#: ../groups/create.php:116
+#: ../groups/create.php:128
+#: ../groups/single/admin.php:84
+#: ../groups/single/admin.php:94
+msgid "This group will be listed in the groups directory and in search results."
+msgstr "这个组将被列在群组目录和搜索结果中。"
+
+#: ../groups/create.php:117
+#: ../groups/single/admin.php:85
+msgid "Group content and activity will be visible to any site member."
+msgstr "组的内容和活动将是任何网站的会员可见。"
+
+#: ../groups/create.php:124
+#: ../groups/single/admin.php:91
+msgid "This is a private group"
+msgstr "这是私人群组"
+
+#: ../groups/create.php:127
+#: ../groups/single/admin.php:93
+msgid "Only users who request membership and are accepted can join the group."
+msgstr "只有邀请的和接受的用户可以加入该组。"
+
+#: ../groups/create.php:129
+#: ../groups/create.php:141
+#: ../groups/single/admin.php:95
+#: ../groups/single/admin.php:105
+msgid "Group content and activity will only be visible to members of the group."
+msgstr "组内容和活动将只有该组的成员可见。"
+
+#: ../groups/create.php:136
+#: ../groups/single/admin.php:101
+msgid "This is a hidden group"
+msgstr "这是隐藏群组"
+
+#: ../groups/create.php:139
+#: ../groups/single/admin.php:103
+msgid "Only users who are invited can join the group."
+msgstr "只有那些被邀请的用户可以加入该组。"
+
+#: ../groups/create.php:140
+#: ../groups/single/admin.php:104
+msgid "This group will not be listed in the groups directory or search results."
+msgstr "这个组将不会被列在群组目录或搜索结果中。"
+
+#: ../groups/create.php:150
+#: ../groups/single/admin.php:113
+msgid "Group Invitations"
+msgstr "群组邀请"
+
+#: ../groups/create.php:152
+#: ../groups/single/admin.php:115
+msgid "Which members of this group are allowed to invite others?"
+msgstr "这个小组的成员允许邀请他人？"
+
+#: ../groups/create.php:158
+#: ../groups/single/admin.php:121
+msgid "All group members"
+msgstr "全部组成员"
+
+#: ../groups/create.php:163
+#: ../groups/single/admin.php:126
+msgid "Group admins and mods only"
+msgstr "仅群组管理和mods "
+
+#: ../groups/create.php:168
+#: ../groups/single/admin.php:131
+msgid "Group admins only"
+msgstr "管理群组"
+
+#: ../groups/create.php:204
+#: ../groups/single/admin.php:156
+msgid "Upload an image to use as an avatar for this group. The image will be shown on the main group page, and in search results."
+msgstr "上传个图像用作该组的头像。这个图像会显示在群组主页和搜索结果中。"
+
+#: ../groups/create.php:216
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr "要跳过头像上传，单击 \"下一步\" 按钮."
+
+#: ../groups/create.php:224
+msgid "Crop Group Avatar"
+msgstr "剪裁群组头像"
+
+#: ../groups/create.php:268
+#: ../groups/single/send-invites.php:9
+msgid "Select people to invite from your friends list."
+msgstr "从您的朋友清单选择要邀请的人。"
+
+#: ../groups/create.php:308
+#: ../groups/single/send-invites.php:52
+msgid "Remove Invite"
+msgstr "删除邀请"
+
+#: ../groups/create.php:332
+#: ../groups/single/send-invites.php:87
+msgid "Once you have built up friend connections you will be able to invite others to your group. You can send invites any time in the future by selecting the \"Send Invites\" option when viewing your new group."
+msgstr "一旦你已经建立起来朋友链，您将可以邀请其他人到组。当查看您的新组您可以在任何时间选择\"发送邀请\"选项发送邀请。"
+
+#: ../groups/create.php:357
+msgid "Back to Previous Step"
+msgstr "备份到上一个​​步骤"
+
+#: ../groups/create.php:364
+msgid "Next Step"
+msgstr "下一步"
+
+#: ../groups/create.php:371
+msgid "Create Group and Continue"
+msgstr "创建群组并继续"
+
+#: ../groups/create.php:378
+msgid "Finish"
+msgstr "完成"
+
+#: ../groups/groups-loop.php:43
+#: ../groups/single/group-header.php:43
+#, php-format
+msgid "active %s"
+msgstr "活动%s"
+
+#: ../groups/groups-loop.php:87
+msgid "There were no groups found."
+msgstr "这里没有群组"
+
+#: ../groups/index.php:42
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr "全部组<span>%s</span>"
+
+#: ../groups/index.php:52
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr "我的组<span>%s</span>"
+
+#: ../groups/single/activity.php:7
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: ../groups/single/activity.php:7
+msgid "RSS"
+msgstr "RSS"
+
+#: ../groups/single/admin.php:36
+msgid "Notify group members of changes via email"
+msgstr "通过电子邮件通知组成员的变动"
+
+#: ../groups/single/admin.php:172
+msgid "If you'd like to remove the existing avatar but not upload a new one, please use the delete avatar button."
+msgstr "如果你想删除现有的头像，不上传一个新的，请使用删除头像按钮。"
+
+#: ../groups/single/admin.php:200
+msgid "Crop Avatar"
+msgstr "剪裁头像"
+
+#: ../groups/single/admin.php:231
+msgid "Administrators"
+msgstr "管理员"
+
+#: ../groups/single/admin.php:256
+#: ../groups/single/admin.php:320
+#, php-format
+msgid "Profile picture of %s"
+msgstr "%s的个人图片"
+
+#: ../groups/single/admin.php:267
+#: ../groups/single/admin.php:335
+msgid "Demote to Member"
+msgstr "降级到会员"
+
+#: ../groups/single/admin.php:295
+msgid "Moderators"
+msgstr "版主"
+
+#: ../groups/single/admin.php:333
+#: ../groups/single/admin.php:417
+msgid "Promote to Admin"
+msgstr "提升为管理员"
+
+#: ../groups/single/admin.php:365
+msgid "Members"
+msgstr "会员"
+
+#: ../groups/single/admin.php:401
+msgid "(banned)"
+msgstr "(禁止)"
+
+#: ../groups/single/admin.php:411
+msgid "Unban this member"
+msgstr "解除禁止此会员"
+
+#: ../groups/single/admin.php:411
+msgid "Remove Ban"
+msgstr "删除禁止"
+
+#: ../groups/single/admin.php:415
+msgid "Kick and ban this member"
+msgstr "踢出并禁止该会员"
+
+#: ../groups/single/admin.php:415
+msgid "Kick &amp; Ban"
+msgstr "踢出 &amp; 禁止"
+
+#: ../groups/single/admin.php:416
+msgid "Promote to Mod"
+msgstr "提升到Mod"
+
+#: ../groups/single/admin.php:423
+msgid "Remove this member"
+msgstr "删除这个成员"
+
+#: ../groups/single/admin.php:423
+msgid "Remove from group"
+msgstr "从组中删除"
+
+#: ../groups/single/admin.php:443
+#: ../groups/single/members.php:103
+msgid "This group has no members."
+msgstr "本群租没有会员"
+
+#: ../groups/single/admin.php:532
+msgid "There are no pending membership requests."
+msgstr "没有待审核的成员信息。"
+
+#: ../groups/single/admin.php:549
+msgid "WARNING: Deleting this group will completely remove ALL content associated with it. There is no way back, please be careful with this option."
+msgstr "警告：删除此组将完全删除与它相关的所有内容。没有办法找回来，请小心使用此选项。"
+
+#: ../groups/single/admin.php:551
+msgid "I understand the consequences of deleting this group."
+msgstr "我明白删去该组的后果。"
+
+#: ../groups/single/admin.php:555
+msgid "Delete Group"
+msgstr "删除组"
+
+#: ../groups/single/forum.php:25
+msgid "New Topic"
+msgstr "新话题"
+
+#: ../groups/single/forum.php:35
+#: ../groups/single/forum/edit.php:25
+#: ../groups/single/forum/topic.php:29
+msgid "Forum Directory"
+msgstr "论坛目录"
+
+#: ../groups/single/forum.php:89
+msgid "You will auto join this group when you start a new topic."
+msgstr "您会自动加入这个组，当你发布个新话题。"
+
+#: ../groups/single/forum.php:97
+msgid "Post a New Topic:"
+msgstr "发表新话题："
+
+#: ../groups/single/forum.php:99
+#: ../groups/single/forum/edit.php:69
+msgid "Title:"
+msgstr "标题："
+
+#: ../groups/single/forum.php:103
+#: ../groups/single/forum/edit.php:73
+msgid "Content:"
+msgstr "内容："
+
+#: ../groups/single/forum.php:107
+#: ../groups/single/forum/edit.php:77
+msgid "Tags (comma separated):"
+msgstr "标签 (逗号分隔):"
+
+#: ../groups/single/forum.php:115
+msgid "Post Topic"
+msgstr "文章主题"
+
+#: ../groups/single/group-header.php:9
+msgid "Group Admins"
+msgstr "群组管理"
+
+#: ../groups/single/group-header.php:19
+msgid "Group Mods"
+msgstr "群组Mods"
+
+#: ../groups/single/request-membership.php:7
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr "你要求成为组'%s'.的成员。"
+
+#: ../groups/single/request-membership.php:11
+msgid "Comments (optional)"
+msgstr "评论（可选）"
+
+#: ../groups/single/request-membership.php:17
+msgid "Send Request"
+msgstr "发送请求"
+
+#: ../groups/single/send-invites.php:76
+msgid "Send Invites"
+msgstr "发送邀请"
+
+#: ../groups/single/forum/edit.php:39
+msgid "Edit:"
+msgstr "编辑："
+
+#: ../groups/single/forum/edit.php:117
+msgid "This topic does not exist."
+msgstr "本话题不存在"
+
+#: ../groups/single/forum/topic.php:19
+msgid "New Reply"
+msgstr "新回复"
+
+#: ../groups/single/forum/topic.php:51
+msgid "Topic tags:"
+msgstr "主题标签："
+
+#: ../groups/single/forum/topic.php:103
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr "%1$s 说 %2$s:"
+
+#: ../groups/single/forum/topic.php:127
+msgid "Permanent link to this post"
+msgstr "永久链接到这篇文章"
+
+#: ../groups/single/forum/topic.php:173
+msgid "You will auto join this group when you reply to this topic."
+msgstr "您将自动加入该组，当您回复此主题。"
+
+#: ../groups/single/forum/topic.php:181
+msgid "Add a reply:"
+msgstr "添加一条回复："
+
+#: ../groups/single/forum/topic.php:185
+msgid "Post Reply"
+msgstr "发表回复"
+
+#: ../groups/single/forum/topic.php:199
+msgid "This topic is closed, replies are no longer accepted."
+msgstr "话题被关闭，不再接受回复。"
+
+#: ../groups/single/forum/topic.php:213
+msgid "There are no posts for this topic."
+msgstr "本话题没有文章"
+
+#: ../forums/forums-loop.php:36
+msgid "Topic"
+msgstr "主题"
+
+#: ../forums/forums-loop.php:40
+msgid "Freshness"
+msgstr "新鲜"
+
+#: ../forums/forums-loop.php:58
+msgid "Permalink"
+msgstr "固定链接"
+
+#: ../forums/forums-loop.php:62
+#, php-format
+msgid "Started by %1$s"
+msgstr "开始于 %1$s"
+
+#: ../forums/forums-loop.php:76
+#, php-format
+msgid "in %1$s"
+msgstr "在 %1$s"
+
+#: ../forums/forums-loop.php:140
+msgid "Sorry, there were no forum topics found."
+msgstr "对不起，这里没有论坛话题"
+
+#: ../forums/index.php:22
+msgid "Forums Directory"
+msgstr "论坛目录"
+
+#: ../forums/index.php:48
+msgid "Create New Topic:"
+msgstr "创建新话题："
+
+#: ../forums/index.php:58
+msgid " "
+msgstr " "
+
+#: ../forums/index.php:62
+msgid "Post In Group Forum:"
+msgstr "发表在群组论坛："
+
+#: ../forums/index.php:66
+#: ../admin/panel/admin_form_typography.php:60
+#: ../admin/panel/admin_form_typography.php:415
+msgid "select"
+msgstr "选择"
+
+#: ../forums/index.php:94
+#: ../admin/panel/admin_form_style.php:168
+#: ../admin/panel/admin_form_typography.php:112
+#: ../admin/panel/admin_form_typography.php:194
+msgid "Cancel"
+msgstr "取消"
+
+#: ../forums/index.php:108
+#, php-format
+msgid "You are not a member of any groups so you don't have any group forums you can post in. To start posting, first find a group that matches the topic subject you'd like to start. If this group does not exist, why not <a href='%s'>create a new group</a>? Once you have joined or created the group you can post your topic in that group's forum."
+msgstr "你不是任何组的成员，所以你不能在任何论坛组发帖。要开始发帖，首先找到一组与你话题相匹配的组，如果该组不存在，为什么不 <a href='%s'>创建一个新的小组</a>？一旦你已经加入或创建的组，你可以在该组的论坛发表你的主题。"
+
+#: ../forums/index.php:136
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr "全部话题 <span>%s</span>"
+
+#: ../forums/index.php:146
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr "我的话题<span>%s</span>"
+
+#: ../blogs/blogs-loop.php:96
+msgid "Sorry, there were no sites found."
+msgstr "对不起，没找到网站。"
+
+#: ../blogs/create.php:20
+#: ../blogs/index.php:22
+msgid "Create a Site"
+msgstr "创建一个网站"
+
+#: ../blogs/create.php:20
+#: ../blogs/index.php:22
+msgid "Site Directory"
+msgstr "网站目录"
+
+#: ../blogs/create.php:34
+msgid "Site registration is currently disabled"
+msgstr "网站注册当前已停用"
+
+#: ../blogs/index.php:40
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr "全部网站<span>%s</span>"
+
+#: ../blogs/index.php:50
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr "我的网站<span>%s</span>"
+
+#: ../admin/panel/admin_form.php:10
+#: ../admin/panel/admin_form_buddypress.php:10
+#: ../admin/panel/admin_form_headerr.php:10
+#: ../admin/panel/admin_form_misc.php:10
+#: ../admin/panel/admin_form_products.php:10
+#: ../admin/panel/admin_form_sidebars.php:10
+#: ../admin/panel/admin_form_slider.php:10
+#: ../admin/panel/admin_form_style.php:14
+#: ../admin/panel/admin_form_typography.php:13
+#: ../admin/panel/admin_panel.php:115
+msgid "Theme settings"
+msgstr "主题设置"
+
+#: ../admin/panel/admin_form.php:17
+#: ../admin/panel/admin_form_buddypress.php:18
+#: ../admin/panel/admin_form_headerr.php:18
+#: ../admin/panel/admin_form_products.php:17
+#: ../admin/panel/admin_form_sidebars.php:18
+#: ../admin/panel/admin_form_slider.php:18
+#: ../admin/panel/admin_form_style.php:21
+msgid "General"
+msgstr "常规"
+
+#: ../admin/panel/admin_form.php:22
+msgid "Help"
+msgstr "帮助"
+
+#: ../admin/panel/admin_form.php:35
+msgid "Logo"
+msgstr "标志"
+
+#: ../admin/panel/admin_form.php:39
+msgid "Display as"
+msgstr "显示为"
+
+#: ../admin/panel/admin_form.php:44
+#: ../admin/panel/admin_form_style.php:445
+msgid "Text"
+msgstr "文字"
+
+#: ../admin/panel/admin_form.php:47
+msgid "Image"
+msgstr "图像"
+
+#: ../admin/panel/admin_form.php:56
+msgid "Site name"
+msgstr "站点名称"
+
+#: ../admin/panel/admin_form.php:61
+msgid "Enter the site name and tagline."
+msgstr "输入你的网站名称和标语"
+
+#: ../admin/panel/admin_form.php:73
+#: ../admin/panel/admin_form.php:88
+msgid "Image URL"
+msgstr "图像URL"
+
+#: ../admin/panel/admin_form.php:77
+#: ../admin/panel/admin_form.php:92
+#: ../admin/panel/admin_form.php:475
+#: ../admin/panel/admin_form.php:509
+#: ../admin/panel/admin_form_style.php:185
+#: ../admin/panel/admin_form_typography.php:127
+msgid "Browse"
+msgstr "浏览"
+
+#: ../admin/panel/admin_form.php:78
+msgid "Enter an URL of your image logo e.q. <code>http://yoursite.com/image.png</code> <br>JPG, GIF or PNG format allowed."
+msgstr "输入您的标志图像的网址，例如<code>http://yoursite.com/image.png</code> JPG，GIF或PNG格式允许。"
+
+#: ../admin/panel/admin_form.php:84
+msgid "Favicon"
+msgstr "收藏站标"
+
+#: ../admin/panel/admin_form.php:93
+#: ../admin/panel/admin_form_style.php:187
+#: ../admin/panel/admin_form_typography.php:131
+#: ../admin/panel/admin_form_typography.php:213
+#: ../admin/panel/admin_form_typography.php:226
+msgid "e.q."
+msgstr "例如："
+
+#: ../admin/panel/admin_form.php:99
+msgid "Google Analytics"
+msgstr "谷歌分析"
+
+#: ../admin/panel/admin_form.php:103
+msgid "Code"
+msgstr "代码"
+
+#: ../admin/panel/admin_form.php:112
+msgid "Copyrights"
+msgstr "版权所有"
+
+#: ../admin/panel/admin_form.php:133
+msgid "Remove developer's link from the footer"
+msgstr "在页脚删除开发者链接"
+
+#: ../admin/panel/admin_form.php:152
+#: ../admin/panel/admin_form.php:163
+#: ../admin/panel/admin_form.php:169
+#: ../admin/panel/admin_form.php:175
+#: ../admin/panel/admin_form_products.php:51
+#: ../admin/panel/admin_form_products.php:56
+#: ../admin/panel/admin_form_products.php:62
+msgid "Template"
+msgstr "模板"
+
+#: ../admin/panel/admin_form.php:157
+msgid "Default"
+msgstr "默认"
+
+#: ../admin/panel/admin_form.php:178
+msgid "Select the blog template."
+msgstr "选择博客模板"
+
+#: ../admin/panel/admin_form.php:181
+msgid "Common"
+msgstr "评论"
+
+#: ../admin/panel/admin_form.php:185
+msgid "Posts per page"
+msgstr "每页文章"
+
+#: ../admin/panel/admin_form.php:199
+msgid "A quantity of posts per blog page."
+msgstr "每个博客页面的文章数量。"
+
+#: ../admin/panel/admin_form.php:214
+msgid "Square thumbnails"
+msgstr "方形缩略图"
+
+#: ../admin/panel/admin_form.php:215
+msgid "Crop all thumbs by square."
+msgstr "方形剪裁全部缩略图"
+
+#: ../admin/panel/admin_form.php:223
+msgid "Crop by top"
+msgstr "顶部剪裁"
+
+#: ../admin/panel/admin_form.php:224
+msgid "Crop all thumbs by top."
+msgstr "顶部剪裁全部缩略图"
+
+#: ../admin/panel/admin_form.php:244
+msgid "Meta"
+msgstr "元"
+
+#: ../admin/panel/admin_form.php:253
+msgid "Author's info"
+msgstr "作者信息"
+
+#: ../admin/panel/admin_form.php:254
+msgid "Display"
+msgstr "显示"
+
+#: ../admin/panel/admin_form.php:254
+msgid "and"
+msgstr "并"
+
+#: ../admin/panel/admin_form.php:254
+msgid "author's bio"
+msgstr "作者的简历"
+
+#: ../admin/panel/admin_form.php:254
+msgid "at the post page"
+msgstr "在文章页"
+
+#: ../admin/panel/admin_form.php:265
+msgid "Post page"
+msgstr "文章页"
+
+#: ../admin/panel/admin_form.php:276
+msgid "Before post"
+msgstr "文章之前"
+
+#: ../admin/panel/admin_form.php:277
+msgid "Display custom data before the post. Shortcodes allowed."
+msgstr "在文章之前显示自定义数据，简码允许"
+
+#: ../admin/panel/admin_form.php:298
+msgid "After title"
+msgstr "标题之后"
+
+#: ../admin/panel/admin_form.php:299
+msgid "Display custom data after the title. Shortcodes allowed."
+msgstr "显示自定义数据在标题之后，简码允许。"
+
+#: ../admin/panel/admin_form.php:320
+msgid "Featured image"
+msgstr "特色图像"
+
+#: ../admin/panel/admin_form.php:321
+msgid "Display featured image on post page."
+msgstr "显示特色图像在文章页"
+
+#: ../admin/panel/admin_form.php:329
+msgid "Link to an original"
+msgstr "链接到原文"
+
+#: ../admin/panel/admin_form.php:330
+msgid "Open the full size image in lightbox by click."
+msgstr "单击在灯箱中打开全尺寸图片"
+
+#: ../admin/panel/admin_form.php:351
+msgid "Excerpt"
+msgstr "摘录"
+
+#: ../admin/panel/admin_form.php:352
+msgid "Display excerpt on post page."
+msgstr "显示摘录在文章页"
+
+#: ../admin/panel/admin_form.php:369
+msgid "After post"
+msgstr "文章之后"
+
+#: ../admin/panel/admin_form.php:370
+msgid "Display custom data after the post. Shortcodes allowed."
+msgstr "显示自定义数据在文章之后，允许简码。"
+
+#: ../admin/panel/admin_form.php:394
+msgid "Display comments."
+msgstr "显示评论"
+
+#: ../admin/panel/admin_form.php:403
+msgid "Gravatars"
+msgstr "头像"
+
+#: ../admin/panel/admin_form.php:404
+msgid "Display a gravatars of comments."
+msgstr "显示头像在评论。"
+
+#: ../admin/panel/admin_form.php:413
+msgid "Dates"
+msgstr "日期"
+
+#: ../admin/panel/admin_form.php:414
+msgid "Display a dates of comments."
+msgstr "显示评论日期"
+
+#: ../admin/panel/admin_form.php:423
+msgid "Website an input field"
+msgstr "网站输入字段"
+
+#: ../admin/panel/admin_form.php:424
+msgid "Display a \"Website\" input field on the comment form."
+msgstr "显示一个 \"网址\" 输入字段在评论表单"
+
+#: ../admin/panel/admin_form.php:434
+msgid "Display trackbacks."
+msgstr "显示引用。"
+
+#: ../admin/panel/admin_form.php:447
+msgid "Image placeholder"
+msgstr "图像占位符"
+
+#: ../admin/panel/admin_form.php:476
+msgid "Enter an URL of image you would like to use as placeholder <br>e.q. <code>http://yoursite.com/image.png</code> <br><br>JPG, GIF or PNG format allowed."
+msgstr "输入你想使用的占位符图像的URL<br>e.q. <code>http://yoursite.com/image.png</code> <br><br>JPG格式，GIF或PNG格式允许。"
+
+#: ../admin/panel/admin_form.php:481
+msgid "Custom default gravatar"
+msgstr "自定义默认头像"
+
+#: ../admin/panel/admin_form.php:510
+msgid "Enter an URL of image you would like to use as default gravatar <br>e.q. <code>http://yoursite.com/image.jpg</code> <br><br>Do not forget <a href=\""
+msgstr "输入图像的URL作为默认的头像<br>e.q. <code>http://yoursite.com/image.jpg</code> <br><br>别忘记 <a href=\""
+
+#: ../admin/panel/admin_form.php:535
+msgid "Comments & Meta"
+msgstr "评论 & 元"
+
+#: ../admin/panel/admin_form.php:536
+msgid "Display comments and meta on pages."
+msgstr "在页面显示评论和元 "
+
+#: ../admin/panel/admin_form.php:552
+msgid "Quick self-help"
+msgstr "快速自助"
+
+#: ../admin/panel/admin_form.php:554
+msgid "In case you have a question about theme settings and installation please take a look these resources. Most likely the answer for your question already exists. You can save the time by reading:"
+msgstr "如果你有一个关于主题设置和安装问题，请看一看这些资源。可能你的问题已经存在答案。通过阅读，你可以节省时间："
+
+#: ../admin/panel/admin_form.php:560
+msgid "Documentation"
+msgstr "文档"
+
+#: ../admin/panel/admin_form.php:561
+msgid "You can find the theme documentation at the archive you have downloaded. Please, take a look a Documentation folder at an archive, you've downloaded."
+msgstr "你可以找到主题说明文档在你已经下载的文件中"
+
+#: ../admin/panel/admin_form.php:565
+msgid "Manuals on demo-site"
+msgstr "手册在演示站点"
+
+#: ../admin/panel/admin_form.php:566
+msgid "Please, browse the manuals at"
+msgstr "请，浏览手册在"
+
+#: ../admin/panel/admin_form.php:570
+#: ../admin/panel/admin_form.php:578
+msgid "Support forum"
+msgstr "支持论坛"
+
+#: ../admin/panel/admin_form.php:571
+msgid "Please, browse the topics at"
+msgstr "请，浏览话题"
+
+#: ../admin/panel/admin_form.php:579
+msgid "In case you have not found an answer for your question by that way, please, start a new topic on this forum"
+msgstr "如果你有没有找到这个问题的答案，请在论坛上，发表一个新话题"
+
+#: ../admin/panel/admin_form.php:583
+msgid "FAQ"
+msgstr "常见问题"
+
+#: ../admin/panel/admin_form.php:584
+msgid "Support Policy"
+msgstr "扶持政策"
+
+#: ../admin/panel/admin_form.php:585
+msgid "Terms and Conditions"
+msgstr "条款和条件"
+
+#: ../admin/panel/admin_form.php:586
+msgid "Licensing"
+msgstr "许可"
+
+#: ../admin/panel/admin_form.php:594
+#: ../admin/panel/admin_form_buddypress.php:60
+#: ../admin/panel/admin_form_headerr.php:153
+#: ../admin/panel/admin_form_misc.php:155
+#: ../admin/panel/admin_form_products.php:263
+#: ../admin/panel/admin_form_sidebars.php:76
+#: ../admin/panel/admin_form_slider.php:132
+#: ../admin/panel/admin_form_style.php:497
+#: ../admin/panel/admin_form_typography.php:476
+msgid "Update settings"
+msgstr "更新设置"
+
+#: ../admin/panel/admin_form_buddypress.php:29
+msgid "Compatibility"
+msgstr "兼容"
+
+#: ../admin/panel/admin_form_buddypress.php:36
+#: ../admin/panel/admin_form_buddypress.php:50
+msgid "Enabled"
+msgstr "启用"
+
+#: ../admin/panel/admin_form_buddypress.php:37
+msgid "An activation of BuddyPress compatibility."
+msgstr "激活BuddyPress的兼容。"
+
+#: ../admin/panel/admin_form_buddypress.php:43
+msgid "Admin bar"
+msgstr "顶部管理条"
+
+#: ../admin/panel/admin_form_buddypress.php:51
+msgid "Display BuddyPress admin bar on front-end."
+msgstr "显示BuddyPress 管理条在前端"
+
+#: ../admin/panel/admin_form_headerr.php:10
+#: ../admin/panel/admin_form_headerr.php:30
+#: ../admin/panel/admin_panel.php:119
+msgid "Header"
+msgstr "页眉"
+
+#: ../admin/panel/admin_form_headerr.php:43
+msgid "Notice for visitors"
+msgstr "游客的通知"
+
+#: ../admin/panel/admin_form_headerr.php:44
+msgid "Display notice for visitors."
+msgstr "显示游客公告"
+
+#: ../admin/panel/admin_form_headerr.php:48
+msgid "The best way to catch visitor attention. Shortcodes allowed."
+msgstr "最好的办法是捕捉访问者的注意力。简码允许。"
+
+#: ../admin/panel/admin_form_headerr.php:60
+msgid "Custom data"
+msgstr "自定义数据"
+
+#: ../admin/panel/admin_form_headerr.php:61
+msgid "Display custom data on header."
+msgstr "显示自定义数据在页眉"
+
+#: ../admin/panel/admin_form_headerr.php:65
+msgid "In case you need to display some data on the header please put it on here. Shortcodes allowed."
+msgstr "如果您需要显示一些数据在页眉，请把它放在这里。简码允许。"
+
+#: ../admin/panel/admin_form_headerr.php:77
+msgid "Lifestream"
+msgstr "Lifestream"
+
+#: ../admin/panel/admin_form_headerr.php:78
+msgid "Display icons of the social networks accounts you have."
+msgstr "显示你有的社交网络帐户的图标。"
+
+#: ../admin/panel/admin_form_headerr.php:108
+msgid "Enter an URLs of your social networks acconts. Enter your FeedBurner URL on the RSS field."
+msgstr "输入您社会网络账户的网址。输入您的FeedBurner网址的RSS字段。"
+
+#: ../admin/panel/admin_form_headerr.php:113
+msgid "You can apply custom icons, counters etc. Shortcodes allowed."
+msgstr "你可以申请自定义图标，允许简码。"
+
+#: ../admin/panel/admin_form_headerr.php:114
+msgid "Draft"
+msgstr "草稿"
+
+#: ../admin/panel/admin_form_headerr.php:128
+#: ../admin/panel/admin_form_slider.php:99
+msgid "Search"
+msgstr "搜索"
+
+#: ../admin/panel/admin_form_headerr.php:129
+msgid "Display search form."
+msgstr "显示搜索表"
+
+#: ../admin/panel/admin_form_headerr.php:138
+msgid "Short message at menu bar"
+msgstr "简短信息在菜单栏"
+
+#: ../admin/panel/admin_form_headerr.php:145
+msgid "e.q. Call us <code>&lt;strong></code>1.800.000.12.34<code>&lt;/strong></code>"
+msgstr "e.q. Call us <code>&lt;strong></code>1.800.000.12.34<code>&lt;/strong></code>"
+
+#: ../admin/panel/admin_form_misc.php:10
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: ../admin/panel/admin_form_misc.php:17
+#: ../admin/panel/admin_form_misc.php:30
+msgid "Basic"
+msgstr "基本"
+
+#: ../admin/panel/admin_form_misc.php:18
+msgid "Advanced"
+msgstr "高级"
+
+#: ../admin/panel/admin_form_misc.php:42
+msgid "Admin Bar"
+msgstr "管理条"
+
+#: ../admin/panel/admin_form_misc.php:43
+msgid "Remove an admin bar from the front-end."
+msgstr "从前端移除管理条"
+
+#: ../admin/panel/admin_form_misc.php:61
+msgid "Buy themes"
+msgstr "购买主题"
+
+#: ../admin/panel/admin_form_misc.php:62
+msgid "Remove \"Buy themes\" menu item from admin panel."
+msgstr "从管理面板删除 \"购买主题\"菜单项"
+
+#: ../admin/panel/admin_form_misc.php:78
+msgid "Autoformatting"
+msgstr "自动格式化"
+
+#: ../admin/panel/admin_form_misc.php:82
+#: ../admin/panel/admin_form_misc.php:139
+#: ../admin/panel/admin_form_slider.php:33
+msgid "Select"
+msgstr "选择"
+
+#: ../admin/panel/admin_form_misc.php:87
+msgid "enabled"
+msgstr "启用"
+
+#: ../admin/panel/admin_form_misc.php:88
+msgid "disabled by [raw] shortcode"
+msgstr "禁用 [raw] 简码"
+
+#: ../admin/panel/admin_form_misc.php:89
+msgid "disabled at all"
+msgstr "禁用所有"
+
+#: ../admin/panel/admin_form_misc.php:91
+msgid "WordPress formatting behavior."
+msgstr "WordPress 格式化行为"
+
+#: ../admin/panel/admin_form_misc.php:97
+msgid "CHMOD"
+msgstr "CHMOD"
+
+#: ../admin/panel/admin_form_misc.php:132
+msgid "In accordance with your server's security settings there is no possible to set a write permissions an automatically. Please, do that by yourself or ask your hosting provider."
+msgstr "您的服务器的安全设置没有设置一个自动写入权限。请询问您的托管服务提供商。"
+
+#: ../admin/panel/admin_form_misc.php:146
+msgid "Write permissions for ../topbusiness/cache/ directory."
+msgstr "写入权限为  ../topbusiness/cache/ 目录"
+
+#: ../admin/panel/admin_form_products.php:10
+msgid "Portfolio of products"
+msgstr "产品"
+
+#: ../admin/panel/admin_form_products.php:18
+#: ../admin/panel/admin_form_products.php:80
+msgid "Catalog page"
+msgstr "目录页"
+
+#: ../admin/panel/admin_form_products.php:19
+#: ../admin/panel/admin_form_products.php:136
+msgid "Product page"
+msgstr "产品页"
+
+#: ../admin/panel/admin_form_products.php:40
+msgid "Enable"
+msgstr "启用"
+
+#: ../admin/panel/admin_form_products.php:41
+msgid "Checkbox that in case you need to add products on your website."
+msgstr "勾选如果您需要添加产品到网站。"
+
+#: ../admin/panel/admin_form_products.php:65
+msgid "Select a template for the catalog page."
+msgstr "选择目录页面模板"
+
+#: ../admin/panel/admin_form_products.php:84
+msgid "Products per page"
+msgstr "每页产品"
+
+#: ../admin/panel/admin_form_products.php:99
+msgid "A quantity of products per catalog page."
+msgstr "每个目录页产品数量"
+
+#: ../admin/panel/admin_form_products.php:114
+msgid "After catalog"
+msgstr "目录之后"
+
+#: ../admin/panel/admin_form_products.php:115
+msgid "Display custom data in the end of catalog page. Shortcodes allowed."
+msgstr "在目录页中显示的自定义数据。简码允许。"
+
+#: ../admin/panel/admin_form_products.php:146
+msgid "Reviews & Ratings"
+msgstr "评价 & 点评"
+
+#: ../admin/panel/admin_form_products.php:147
+msgid "Allow visitors to leave a reviews."
+msgstr "让参观者发表评论。"
+
+#: ../admin/panel/admin_form_products.php:164
+msgid "Related products"
+msgstr "相关产品"
+
+#: ../admin/panel/admin_form_products.php:165
+msgid "Display products from the same catalog."
+msgstr "从同类显示产品"
+
+#: ../admin/panel/admin_form_products.php:197
+msgid "After product"
+msgstr "产品之后"
+
+#: ../admin/panel/admin_form_products.php:198
+msgid "Display custom data below the product page. Shortcodes allowed."
+msgstr "产品页面下方的显示自定义的数据。简码允许。"
+
+#: ../admin/panel/admin_form_products.php:219
+msgid "After purchase"
+msgstr "购买之后"
+
+#: ../admin/panel/admin_form_products.php:220
+msgid "Display custom data below the purchase section. Shortcodes allowed."
+msgstr "在下面的购买部分中显示的自定义数据。简码允许。"
+
+#: ../admin/panel/admin_form_products.php:232
+msgid "Names of tabs"
+msgstr "选项卡数量"
+
+#: ../admin/panel/admin_form_products.php:240
+msgid "A common information."
+msgstr "一个共同的信息"
+
+#: ../admin/panel/admin_form_products.php:244
+msgid "Specifications, roles, ingredients etc."
+msgstr "规范，作用，成分等。"
+
+#: ../admin/panel/admin_form_products.php:248
+msgid "Photos, screenshots, schemes, graphs etc."
+msgstr "照片，截图，计划，图表等。"
+
+#: ../admin/panel/admin_form_products.php:252
+msgid "Testimonials, feedbacks, customer opinions etc."
+msgstr "见证，反馈，客户意见等。"
+
+#: ../admin/panel/admin_form_sidebars.php:10
+#: ../admin/panel/admin_panel.php:123
+msgid "Sidebars"
+msgstr "侧边栏"
+
+#: ../admin/panel/admin_form_sidebars.php:30
+msgid "Additional sidebars"
+msgstr "额外的侧边栏"
+
+#: ../admin/panel/admin_form_sidebars.php:34
+msgid "Quantity"
+msgstr "数量"
+
+#: ../admin/panel/admin_form_sidebars.php:38
+msgid "Enter the number of additional sidebars. Min qty of additional sidebars is 2."
+msgstr "输入一些额外的侧边栏。最少额外侧边栏的数量是2。"
+
+#: ../admin/panel/admin_form_sidebars.php:39
+msgid "NOTE! Do not set a value less than an amount of the used sidebars you have. This may lead to the loss of your data."
+msgstr "注意！不要设置一个小于你已经使用侧边栏数目的值。这可能会导致数据丢失。"
+
+#: ../admin/panel/admin_form_sidebars.php:45
+msgid "Footer sidebars"
+msgstr "页脚侧边栏"
+
+#: ../admin/panel/admin_form_sidebars.php:49
+msgid "Select one"
+msgstr "选择一个"
+
+#: ../admin/panel/admin_form_sidebars.php:67
+msgid "Select a variant of the footer sidebars. Please note, some of custom widgets may have a fixed or limited width."
+msgstr "选择页脚侧边栏的一个样式。请注意，一些自定义的小工具可能要一个固定的或有限的宽度。"
+
+#: ../admin/panel/admin_form_slider.php:10
+#: ../admin/panel/admin_form_slider.php:29
+#: ../admin/panel/admin_panel.php:127
+msgid "Slider"
+msgstr "滑块"
+
+#: ../admin/panel/admin_form_slider.php:63
+msgid "Select a slider."
+msgstr "选择个滑块"
+
+#: ../admin/panel/admin_form_slider.php:67
+msgid "Create a first slider"
+msgstr "创建个第一个滑块"
+
+#: ../admin/panel/admin_form_slider.php:79
+msgid "Display on"
+msgstr "显示在"
+
+#: ../admin/panel/admin_form_slider.php:92
+msgid "Homepage"
+msgstr "首页"
+
+#: ../admin/panel/admin_form_slider.php:93
+msgid "Blog"
+msgstr "博客"
+
+#: ../admin/panel/admin_form_slider.php:97
+msgid "Product"
+msgstr "产品"
+
+#: ../admin/panel/admin_form_slider.php:98
+msgid "Products archive"
+msgstr "产品存档"
+
+#: ../admin/panel/admin_form_slider.php:122
+msgid "The slider will display on selected pages."
+msgstr "滑块将显示在被选择的页面"
+
+#: ../admin/panel/admin_form_style.php:14
+#: ../admin/panel/admin_panel.php:135
+msgid "Style"
+msgstr "样式"
+
+#: ../admin/panel/admin_form_style.php:22
+#: ../admin/panel/admin_form_style.php:81
+msgid "Layout"
+msgstr "布局"
+
+#: ../admin/panel/admin_form_style.php:23
+#: ../admin/panel/admin_form_style.php:248
+msgid "Menu"
+msgstr "菜单"
+
+#: ../admin/panel/admin_form_style.php:24
+#: ../admin/panel/admin_form_style.php:386
+msgid "Footer"
+msgstr "页脚"
+
+#: ../admin/panel/admin_form_style.php:25
+#: ../admin/panel/admin_form_style.php:478
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: ../admin/panel/admin_form_style.php:37
+msgid "Basic style"
+msgstr "基本样式"
+
+#: ../admin/panel/admin_form_style.php:40
+msgid "Select a style"
+msgstr "选择个样式"
+
+#: ../admin/panel/admin_form_style.php:67
+msgid "Select a basic style. All changes (below) will be applied to the chosen style."
+msgstr "选择一个基本的样式。所选择的样式将被应用到（下面）全部。"
+
+#: ../admin/panel/admin_form_style.php:84
+#: ../admin/panel/admin_form_style.php:295
+#: ../admin/panel/admin_form_style.php:313
+#: ../admin/panel/admin_form_style.php:331
+#: ../admin/panel/admin_form_style.php:419
+msgid "Background"
+msgstr "背景"
+
+#: ../admin/panel/admin_form_style.php:89
+msgid "Select the primary color of background."
+msgstr "选择背景主颜色"
+
+#: ../admin/panel/admin_form_style.php:97
+msgid "Pattern"
+msgstr "图案"
+
+#: ../admin/panel/admin_form_style.php:126
+#: ../admin/panel/admin_form_style.php:345
+#: ../admin/panel/admin_form_typography.php:257
+#: ../admin/panel/admin_form_typography.php:282
+#: ../admin/panel/admin_form_typography.php:307
+#: ../admin/panel/admin_form_typography.php:332
+#: ../admin/panel/admin_form_typography.php:357
+#: ../admin/panel/admin_form_typography.php:382
+#: ../admin/panel/admin_form_typography.php:431
+msgid "default"
+msgstr "默认"
+
+#: ../admin/panel/admin_form_style.php:127
+#: ../admin/panel/admin_form_style.php:128
+#: ../admin/panel/admin_form_style.php:139
+#: ../admin/panel/admin_form_style.php:140
+msgid "Vertical lines"
+msgstr "Vertical lines"
+
+#: ../admin/panel/admin_form_style.php:129
+msgid "Noise"
+msgstr "Noise"
+
+#: ../admin/panel/admin_form_style.php:130
+msgid "Cells"
+msgstr "Cells"
+
+#: ../admin/panel/admin_form_style.php:131
+#: ../admin/panel/admin_form_style.php:132
+msgid "Grid"
+msgstr "Grid"
+
+#: ../admin/panel/admin_form_style.php:133
+msgid "Jeans"
+msgstr "Jeans"
+
+#: ../admin/panel/admin_form_style.php:134
+msgid "Tissue"
+msgstr "Tissue"
+
+#: ../admin/panel/admin_form_style.php:135
+msgid "Gradient White"
+msgstr "Gradient White"
+
+#: ../admin/panel/admin_form_style.php:136
+msgid "Gradient Black"
+msgstr "Gradient Black"
+
+#: ../admin/panel/admin_form_style.php:137
+#: ../admin/panel/admin_form_style.php:147
+#: ../admin/panel/admin_form_style.php:148
+msgid "Oblique lines"
+msgstr "Oblique lines"
+
+#: ../admin/panel/admin_form_style.php:138
+msgid "Horizontal lines"
+msgstr "Horizontal lines"
+
+#: ../admin/panel/admin_form_style.php:141
+#: ../admin/panel/admin_form_style.php:144
+msgid "Square"
+msgstr "Square"
+
+#: ../admin/panel/admin_form_style.php:142
+msgid "Dotted"
+msgstr "Dotted"
+
+#: ../admin/panel/admin_form_style.php:143
+msgid "Leaves"
+msgstr "Leaves"
+
+#: ../admin/panel/admin_form_style.php:145
+msgid "Rain"
+msgstr "Rain"
+
+#: ../admin/panel/admin_form_style.php:146
+msgid "Carbon"
+msgstr "Carbon"
+
+#: ../admin/panel/admin_form_style.php:149
+msgid "Flowers"
+msgstr "Flowers"
+
+#: ../admin/panel/admin_form_style.php:150
+msgid "Bubbles"
+msgstr "Bubbles"
+
+#: ../admin/panel/admin_form_style.php:151
+msgid "Ornament"
+msgstr "Ornament"
+
+#: ../admin/panel/admin_form_style.php:152
+msgid "No pattern"
+msgstr "无图案"
+
+#: ../admin/panel/admin_form_style.php:167
+msgid "Apply pattern"
+msgstr "应用图案"
+
+#: ../admin/panel/admin_form_style.php:173
+msgid "Select the pattern of background or set your own."
+msgstr "选择背景图案或自己设置一个"
+
+#: ../admin/panel/admin_form_style.php:181
+msgid "Custom pattern"
+msgstr "自定义图案"
+
+#: ../admin/panel/admin_form_style.php:188
+#: ../admin/panel/admin_form_typography.php:129
+#: ../admin/panel/admin_form_typography.php:210
+msgid "NOTE! This input field takes precedence over the previous."
+msgstr "注意！这个输入字段较前优先。"
+
+#: ../admin/panel/admin_form_style.php:197
+msgid "Pattern options"
+msgstr "图案选项"
+
+#: ../admin/panel/admin_form_style.php:200
+msgid "Position"
+msgstr "位置"
+
+#: ../admin/panel/admin_form_style.php:221
+msgid "Tiling"
+msgstr "平铺"
+
+#: ../admin/panel/admin_form_style.php:224
+msgid "repeat-x"
+msgstr "横向重复"
+
+#: ../admin/panel/admin_form_style.php:225
+msgid "repeat-y"
+msgstr "纵向重复"
+
+#: ../admin/panel/admin_form_style.php:226
+msgid "repeat"
+msgstr "重复"
+
+#: ../admin/panel/admin_form_style.php:227
+msgid "no-repeat"
+msgstr "不重复"
+
+#: ../admin/panel/admin_form_style.php:232
+msgid "Attachment"
+msgstr "附件"
+
+#: ../admin/panel/admin_form_style.php:234
+msgid "fixed"
+msgstr "固定"
+
+#: ../admin/panel/admin_form_style.php:252
+#: ../admin/panel/admin_form_style.php:390
+msgid "Approx preview"
+msgstr "粗略预览"
+
+#: ../admin/panel/admin_form_style.php:290
+#: ../admin/panel/admin_form_style.php:308
+#: ../admin/panel/admin_form_style.php:326
+msgid "Color"
+msgstr "颜色"
+
+#: ../admin/panel/admin_form_style.php:303
+msgid "By hover"
+msgstr "由悬停"
+
+#: ../admin/panel/admin_form_style.php:321
+msgid "Current"
+msgstr "当前"
+
+#: ../admin/panel/admin_form_style.php:340
+msgid "Divider"
+msgstr "分配器"
+
+#: ../admin/panel/admin_form_style.php:363
+#, php-format
+msgid "%-opacity"
+msgstr "%-opacity"
+
+#: ../admin/panel/admin_form_style.php:369
+msgid "None"
+msgstr "无"
+
+#: ../admin/panel/admin_form_style.php:371
+msgid "Select a vertical divider for the top level menu items."
+msgstr "选择顶层菜单项的垂直分隔符。"
+
+#: ../admin/panel/admin_form_style.php:424
+msgid "Select a background color of the footer."
+msgstr "选择页脚背景颜色"
+
+#: ../admin/panel/admin_form_style.php:432
+#: ../admin/panel/admin_form_typography.php:20
+#: ../admin/panel/admin_form_typography.php:32
+msgid "Titles"
+msgstr "标题"
+
+#: ../admin/panel/admin_form_style.php:437
+msgid "Select a color of the titles on footer."
+msgstr "给页脚标题选择个颜色"
+
+#: ../admin/panel/admin_form_style.php:450
+msgid "Select a color of the text on footer."
+msgstr "给页脚文字选择个颜色"
+
+#: ../admin/panel/admin_form_style.php:458
+#: ../admin/panel/admin_form_typography.php:450
+msgid "Links"
+msgstr "链接"
+
+#: ../admin/panel/admin_form_style.php:463
+msgid "Select a color of the footer links."
+msgstr "为页脚链接选择个颜色"
+
+#: ../admin/panel/admin_form_style.php:481
+msgid "Insert here"
+msgstr "在这里插入"
+
+#: ../admin/panel/admin_form_style.php:486
+msgid "Please DO NOT modify a source files, because you may lose your changes after the future theme updates in this case. If you need to make a deep style changes please insert your custom styles on this textarea. This is a safety way."
+msgstr "请不要修改源文件，因为主题以后可能会更新。如果你需要做了深刻的风格变化，请在这里的文本域中插入您的自定义样式。这是一种安全的方式。"
+
+#: ../admin/panel/admin_form_style.php:505
+msgid "Are you sure?"
+msgstr "你确定？"
+
+#: ../admin/panel/admin_form_style.php:506
+msgid "No, thanks"
+msgstr "不，谢谢"
+
+#: ../admin/panel/admin_form_style.php:507
+msgid "Yes, please"
+msgstr "是，请"
+
+#: ../admin/panel/admin_form_style.php:510
+msgid "Style settings have been reset. Do not forget to update settings."
+msgstr "样式设置已重置。不要忘记更新设置。"
+
+#: ../admin/panel/admin_form_typography.php:13
+#: ../admin/panel/admin_panel.php:139
+msgid "Typography"
+msgstr "排版"
+
+#: ../admin/panel/admin_form_typography.php:21
+#: ../admin/panel/admin_form_typography.php:407
+msgid "Content"
+msgstr "内容"
+
+#: ../admin/panel/admin_form_typography.php:35
+msgid "Select the group"
+msgstr "选择组"
+
+#: ../admin/panel/admin_form_typography.php:40
+msgid "System"
+msgstr "系统"
+
+#: ../admin/panel/admin_form_typography.php:43
+msgid "Cufon"
+msgstr "Cufon"
+
+#: ../admin/panel/admin_form_typography.php:46
+msgid "Google web fonts"
+msgstr "谷歌网页字体"
+
+#: ../admin/panel/admin_form_typography.php:55
+msgid "System fonts"
+msgstr "系统字体"
+
+#: ../admin/panel/admin_form_typography.php:75
+msgid "A list with the common fonts to all versions of Windows and their Mac equivalents, useful when creating websites."
+msgstr "与所有版本的Windows与Mac等常见的字体列表，创建网站时非常有用。"
+
+#: ../admin/panel/admin_form_typography.php:82
+msgid "Cufon fonts"
+msgstr "Cufon字体"
+
+#: ../admin/panel/admin_form_typography.php:111
+#: ../admin/panel/admin_form_typography.php:193
+msgid "Apply font"
+msgstr "应用字体"
+
+#: ../admin/panel/admin_form_typography.php:117
+msgid "Cufon is the fast text replacement with canvas and VML - no Flash or images required."
+msgstr "cufon是使用画布和 VML快速文本替换技术 - 不是Flash或图像。"
+
+#: ../admin/panel/admin_form_typography.php:123
+msgid "Cufon custom font"
+msgstr "Cufon 自定义字体"
+
+#: ../admin/panel/admin_form_typography.php:130
+msgid "You can start to use your own Cufon font at any time. Just put here a full path to your font"
+msgstr "您可以在任何时候开始使用自己的Cufon字体。只需要在这里输入一个完整的路径"
+
+#: ../admin/panel/admin_form_typography.php:138
+msgid "Cufon classes"
+msgstr "Cufon 类"
+
+#: ../admin/panel/admin_form_typography.php:143
+msgid "In case you need to apply Cufon for an additional elements please enter the new classes by comma e.g. <code>.newclass, .onemore, .somethingelse</code>"
+msgstr "如果你需要为一个额外的元素申请Cufon请输入新的类（逗号分隔） 例如. <code>.newclass, .onemore, .somethingelse</code>"
+
+#: ../admin/panel/admin_form_typography.php:153
+msgid "Google fonts"
+msgstr "谷歌字体"
+
+#: ../admin/panel/admin_form_typography.php:199
+msgid "Google web fonts are web safe fonts, which can be added to your website."
+msgstr "Google网页字体是网页安全字体，可添加到您的网站。"
+
+#: ../admin/panel/admin_form_typography.php:205
+msgid "Google font"
+msgstr "谷歌字体"
+
+#: ../admin/panel/admin_form_typography.php:211
+msgid ""
+"You can start to use another <a target=\"_blank\" href=\"http://www.google.com/webfonts\">Google font</a> at any time. \n"
+"\t\t\t\t\t\tJust put here a codeline of the Google font you would like to use on your website."
+msgstr ""
+"你可以开始使用另一个 <a target=\"_blank\" href=\"http://www.google.com/webfonts\">谷歌字体</a> 在任何时间. \n"
+"\t\t\t\t\t\t只要将这里的Google字体的代码输入你想用的网站上。"
+
+#: ../admin/panel/admin_form_typography.php:220
+msgid "Google font family"
+msgstr "谷歌字体"
+
+#: ../admin/panel/admin_form_typography.php:225
+msgid "In case you have set Google custom font you neet to enter the font family name."
+msgstr "如果你已经设置Google自定义字体，你需要输入字体系列名称。"
+
+#: ../admin/panel/admin_form_typography.php:233
+msgid "Google classes"
+msgstr "谷歌类"
+
+#: ../admin/panel/admin_form_typography.php:238
+msgid "In case you need to apply Google web font for an additional elements please enter the new classes by comma e.g. <code>.newclass, .onemore, .somethingelse</code>"
+msgstr "如果你需要为额外元素申请谷歌字体，请逗号分隔输入新类。例如：<code>.newclass, .onemore, .somethingelse</code>"
+
+#: ../admin/panel/admin_form_typography.php:268
+msgid "Select a color and font size of website title"
+msgstr "为网站标题选择个颜色和字体大小"
+
+#: ../admin/panel/admin_form_typography.php:293
+#: ../admin/panel/admin_form_typography.php:318
+#: ../admin/panel/admin_form_typography.php:343
+#: ../admin/panel/admin_form_typography.php:368
+#: ../admin/panel/admin_form_typography.php:393
+msgid "Select a color and font size of heading"
+msgstr "为标题选择个颜色和字体大小"
+
+#: ../admin/panel/admin_form_typography.php:410
+msgid "Font family"
+msgstr "字体"
+
+#: ../admin/panel/admin_form_typography.php:442
+msgid "Select a common font family and font size."
+msgstr "选择一般字体和字体大小"
+
+#: ../admin/panel/admin_form_typography.php:455
+msgid "Select a color of links."
+msgstr "选择链接颜色"
+
+#: ../admin/panel/admin_form_typography.php:463
+msgid "Links by hover"
+msgstr "链接悬停"
+
+#: ../admin/panel/admin_form_typography.php:468
+msgid "Select a color of links by hover."
+msgstr "选择链接悬停颜色"
+
+#: ../admin/panel/admin_panel.php:131
+msgid "Products"
+msgstr "产品"
+
+#: ../admin/includes/sidebars.php:81
+msgid "Please, select"
+msgstr "请选择"
+
+#: ../admin/includes/sidebars.php:82
+msgid "You can set an unique sidebar to each page or post. <a href=\"admin.php?page=sidebars\">Create new sidebar</a>"
+msgstr "你可以设置一个独特的侧边栏为每一页或每个文章。<a href=\"admin.php?page=sidebars\">创建新侧边栏</a>"
+
+#: ../admin/includes/sidebars.php:95
+msgid "Enter an URL"
+msgstr "输入个URL"
+
+#: ../admin/includes/sidebars.php:98
+msgid "How to use?"
+msgstr "如何使用？"
+
+#: ../admin/includes/sidebars.php:100
+msgid "If you need to set a featured image from URL, please, paste an image path. Take a look a list of allowed websites:"
+msgstr "如果您需要从URL设置一个特色图像，请粘贴图像的路径。看一看允许的网站列表："
+
+#: ../admin/includes/sidebars.php:226
+msgid "Default Sidebar"
+msgstr "默认侧边栏"
+
+#: ../admin/includes/sidebars.php:227
+msgid "Buddy Sidebar - logged in"
+msgstr "Buddy 侧边栏 - 登录"
+
+#: ../admin/includes/sidebars.php:228
+msgid "Buddy Sidebar - logged out"
+msgstr "Buddy 侧边栏 - 登出"
+
+#: ../admin/includes/sidebars.php:229
+msgid "No sidebar"
+msgstr "没有侧边栏"
+
+#: ../admin/includes/sidebars.php:235
+msgid "Side"
+msgstr "边"
+
+#: ../admin/includes/wp-pagenavi.php:42
+msgid "PageNavi"
+msgstr "页面导航"
+
+#: ../admin/includes/wp-pagenavi.php:202
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "页 %CURRENT_PAGE% of %TOTAL_PAGES%"
+
+#: ../admin/includes/wp-pagenavi.php:205
+msgid "&laquo; First"
+msgstr "&laquo; 第一页"
+
+#: ../admin/includes/wp-pagenavi.php:206
+msgid "Last &raquo;"
+msgstr "最后一页 &raquo;"
+
+#: ../admin/includes/wp-pagenavi.php:207
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../admin/includes/wp-pagenavi.php:208
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: ../admin/includes/wp-pagenavi.php:209
+#: ../admin/includes/wp-pagenavi.php:210
+msgid "..."
+msgstr "..."
+
+#: ../admin/includes/widgets/ads125.php:9
+msgid "Advertising 125px banner's place. Up&nbsp;to&nbsp;6 places."
+msgstr "125像素横幅广告位置。Up&nbsp;to&nbsp;6 places."
+
+#: ../admin/includes/widgets/ads125.php:37
+#: ../admin/includes/widgets/ads125.php:110
+msgid "Insert Ad code"
+msgstr "插入广告代码"
+
+#: ../admin/includes/widgets/ads125.php:171
+msgid "Settings"
+msgstr "设置"
+
+#: ../admin/includes/widgets/ads125.php:176
+msgid "Shuffle"
+msgstr "拖曳"
+
+#: ../admin/includes/widgets/ads300.php:9
+msgid "Advertising 300px banner's place. Google AdSense compatible."
+msgstr "300像素广告横幅位置。谷歌广告支持。"
+
+#: ../admin/includes/widgets/contact_info.php:22
+msgid "Contact Info widget displays your address, phone number, email etc."
+msgstr "联系信息小工具显示你的地址、电话号码， email等"
+
+#: ../admin/includes/widgets/contact_info.php:118
+#: ../admin/includes/widgets/flickr.php:122
+#: ../admin/includes/widgets/recent_posts.php:220
+#: ../admin/includes/widgets/twitter.php:107
+msgid "Widget title"
+msgstr "小工具标题"
+
+#: ../admin/includes/widgets/contact_info.php:132
+msgid "Contacts"
+msgstr "联系"
+
+#: ../admin/includes/widgets/contact_info.php:140
+msgid "Introduce text"
+msgstr "介绍文字"
+
+#: ../admin/includes/widgets/contact_info.php:154
+msgid "Phone"
+msgstr "电话"
+
+#: ../admin/includes/widgets/contact_info.php:168
+msgid "Email"
+msgstr "Email"
+
+#: ../admin/includes/widgets/contact_info.php:182
+msgid "Address"
+msgstr "地址"
+
+#: ../admin/includes/widgets/flickr.php:9
+msgid "Flickr Widget."
+msgstr "Flickr 小工具"
+
+#: ../admin/includes/widgets/flickr.php:136
+msgid "Flickr"
+msgstr "Flickr"
+
+#: ../admin/includes/widgets/flickr.php:141
+msgid "Account ID"
+msgstr "账户ID"
+
+#: ../admin/includes/widgets/flickr.php:146
+msgid "Enter your Flickr ID"
+msgstr "输入你的Flickr ID"
+
+#: ../admin/includes/widgets/flickr.php:155
+msgid "Account type"
+msgstr "帐号类型"
+
+#: ../admin/includes/widgets/flickr.php:160
+msgid "user"
+msgstr "用户"
+
+#: ../admin/includes/widgets/flickr.php:161
+msgid "group"
+msgstr "组"
+
+#: ../admin/includes/widgets/flickr.php:170
+msgid "Photos"
+msgstr "照片"
+
+#: ../admin/includes/widgets/flickr.php:198
+msgid "Order"
+msgstr "排序"
+
+#: ../admin/includes/widgets/flickr.php:203
+#: ../admin/includes/widgets/recent_posts.php:321
+msgid "random"
+msgstr "随机"
+
+#: ../admin/includes/widgets/flickr.php:204
+msgid "latest"
+msgstr "最新"
+
+#: ../admin/includes/widgets/flickr.php:213
+msgid "Button"
+msgstr "按钮"
+
+#: ../admin/includes/widgets/flickr.php:223
+msgid "In case you'd like to display the 'Follow Us' button please enter here the text of button."
+msgstr "如果你想显示“收听我”按钮，请在这里输入按钮的文字"
+
+#: ../admin/includes/widgets/recent_posts.php:11
+msgid "Recent posts with thumbnails, dates, excerpts."
+msgstr "带日期，缩略图，摘录的最新文章"
+
+#: ../admin/includes/widgets/recent_posts.php:151
+msgid "More"
+msgstr "更多"
+
+#: ../admin/includes/widgets/recent_posts.php:239
+msgid "Type"
+msgstr "类型"
+
+#: ../admin/includes/widgets/recent_posts.php:244
+msgid "post"
+msgstr "文章"
+
+#: ../admin/includes/widgets/recent_posts.php:245
+msgid "product"
+msgstr "产品"
+
+#: ../admin/includes/widgets/recent_posts.php:260
+msgid "Enter an IDs of categories e.g. 1,2,3,4"
+msgstr "输入类别ID，丽日：1,2,3"
+
+#: ../admin/includes/widgets/recent_posts.php:260
+msgid "For the 'post' type only."
+msgstr "仅为为\"文章\"类型"
+
+#: ../admin/includes/widgets/recent_posts.php:292
+msgid "Offset"
+msgstr "抵消"
+
+#: ../admin/includes/widgets/recent_posts.php:315
+msgid "Order by"
+msgstr "排序方式"
+
+#: ../admin/includes/widgets/recent_posts.php:320
+msgid "date"
+msgstr "日期"
+
+#: ../admin/includes/widgets/recent_posts.php:348
+msgid "Font size"
+msgstr "字体尺寸"
+
+#: ../admin/includes/widgets/recent_posts.php:370
+msgid "Thumbnails"
+msgstr "缩略图"
+
+#: ../admin/includes/widgets/recent_posts.php:388
+msgid "Align"
+msgstr "对齐"
+
+#: ../admin/includes/widgets/recent_posts.php:393
+msgid "by left"
+msgstr "靠左"
+
+#: ../admin/includes/widgets/recent_posts.php:394
+msgid "by right"
+msgstr "靠右"
+
+#: ../admin/includes/widgets/recent_posts.php:395
+#: ../admin/includes/widgets/recent_posts.php:437
+msgid "by center"
+msgstr "居中"
+
+#: ../admin/includes/widgets/recent_posts.php:405
+msgid "Width"
+msgstr "宽度"
+
+#: ../admin/includes/widgets/recent_posts.php:418
+msgid "Height"
+msgstr "高度"
+
+#: ../admin/includes/widgets/recent_posts.php:431
+msgid "Crop"
+msgstr "剪裁"
+
+#: ../admin/includes/widgets/recent_posts.php:436
+msgid "by top"
+msgstr "靠上"
+
+#: ../admin/includes/widgets/recent_posts.php:446
+msgid "Misc"
+msgstr "音乐"
+
+#: ../admin/includes/widgets/recent_posts.php:451
+msgid "Date"
+msgstr "日期"
+
+#: ../admin/includes/widgets/subscribe.php:9
+msgid "Subscribe via FeedBurner"
+msgstr "通过FeedBurner订阅"
+
+#: ../admin/includes/widgets/subscribe.php:41
+#: ../admin/includes/widgets/subscribe.php:141
+msgid "Sign up for our newsletter to receive the latest news and event postings."
+msgstr "注册我们的通讯，接收最新的新闻和事件。"
+
+#: ../admin/includes/widgets/subscribe.php:70
+msgid "readers"
+msgstr "读者"
+
+#: ../admin/includes/widgets/subscribe.php:70
+msgid "subscribe"
+msgstr "订阅"
+
+#: ../admin/includes/widgets/subscribe.php:79
+msgid "Email subscribe"
+msgstr "Email 订阅"
+
+#: ../admin/includes/widgets/subscribe.php:85
+msgid "Subscribe"
+msgstr "订阅"
+
+#: ../admin/includes/widgets/subscribe.php:153
+msgid "Feedburner"
+msgstr "Feedburner"
+
+#: ../admin/includes/widgets/subscribe.php:158
+msgid "Feed ID"
+msgstr "Feed ID"
+
+#: ../admin/includes/widgets/subscribe.php:170
+msgid "RSS-subscribe"
+msgstr "RSS-订阅"
+
+#: ../admin/includes/widgets/subscribe.php:188
+msgid "Counter"
+msgstr "计数器"
+
+#: ../admin/includes/widgets/subscribe.php:200
+msgid "Email-subscribe"
+msgstr "Email-订阅"
+
+#: ../admin/includes/widgets/tabs.php:9
+msgid "Recent comments, Tags, Categories, Archives, Pages. Up to 5 Tabs."
+msgstr "最近的评论，标签，分类，档案，页。 5标签。"
+
+#: ../admin/includes/widgets/tabs.php:218
+#: ../admin/includes/widgets/tabs.php:270
+#: ../admin/includes/widgets/tabs.php:322
+#: ../admin/includes/widgets/tabs.php:362
+msgid "Tab name"
+msgstr "选项卡名"
+
+#: ../admin/includes/widgets/tabs.php:231
+#: ../admin/includes/widgets/tabs.php:283
+#: ../admin/includes/widgets/tabs.php:335
+#: ../admin/includes/widgets/tabs.php:375
+msgid "Tab order"
+msgstr "选项卡排序"
+
+#: ../admin/includes/widgets/tabs.php:236
+#: ../admin/includes/widgets/tabs.php:288
+#: ../admin/includes/widgets/tabs.php:340
+#: ../admin/includes/widgets/tabs.php:380
+msgid "hide"
+msgstr "隐藏"
+
+#: ../admin/includes/widgets/tabs.php:250
+#: ../admin/includes/widgets/tabs.php:302
+msgid "Selected"
+msgstr "已选择"
+
+#: ../admin/includes/widgets/tabs.php:255
+msgid "Enter an IDs of selected categories e.g.&nbsp;1,2,3,4"
+msgstr "输入个已选择的类别的ID，例如&nbsp;1,2,3,4"
+
+#: ../admin/includes/widgets/tabs.php:307
+msgid "Enter an IDs of selected pages e.g.&nbsp;1,2,3,4"
+msgstr "输入个已选择的页面的ID，例如：&nbsp;1,2,3,4"
+
+#: ../admin/includes/widgets/tabs.php:317
+#: ../admin/includes/widgets/tabs.php:326
+msgid "Tags"
+msgstr "标签"
+
+#: ../admin/includes/widgets/twitter.php:9
+msgid "Twitter widget displays your recent entries."
+msgstr "Twitter 小工具显示你的最近条目"
+
+#: ../admin/includes/widgets/twitter.php:50
+msgid "Follow Me"
+msgstr "收听我"
+
+#: ../admin/includes/widgets/twitter.php:121
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../admin/includes/widgets/twitter.php:126
+msgid "Account name"
+msgstr "帐号名"
+
+#: ../admin/includes/widgets/twitter.php:139
+msgid "Twittes qty"
+msgstr "Twittes qty"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:15
+msgid "B U T T O N  :  A buttons with any color and any size. Borders can be rounded by your choice."
+msgstr "按钮：任何颜色，任何规模的一个按钮。边框可以是圆的。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:17
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:32
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:78
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:155
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:179
+msgid "Target URL e.g. http://google.com"
+msgstr "目标路径，例如： http://google.com"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:18
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:33
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:73
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:106
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:120
+msgid "Background color e.g. 336699"
+msgstr "背景颜色，例如：336699"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:19
+msgid "Background color by hover e.g. 000000"
+msgstr "鼠标悬停背景颜色，例如：000000"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:20
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:107
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:121
+msgid "Text color e.g. FFFFFF"
+msgstr "文字颜色，例如：FFFFFF"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:21
+msgid "Text color by hover e.g. CCCCCC"
+msgstr "鼠标悬停文字颜色，例如：CCCCCC"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:22
+msgid "Font size in pixels e.g. 16"
+msgstr "文字尺寸（像素），例如16"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:23
+msgid "Border radius in pixels e.g. 5"
+msgstr "边框范围（像素），例如5"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:24
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:34
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:157
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:167
+msgid "Tooltip e.g. Hello World!"
+msgstr "提示,例如：你好"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:25
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:35
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:156
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:180
+msgid "Target window e.g. blank"
+msgstr "目标窗口，例如：新窗口"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:30
+msgid "B I G   B U T T O N  :  A buttons with the specified colors and taglines."
+msgstr "大按钮：指定的颜色和标语的一个按钮。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:40
+msgid "T O G G L E  :  Allows you to hide the part of content with toggle."
+msgstr "切换：允许你隐藏的部分内容与切换。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:42
+msgid "Toggle title e.g. Click me!"
+msgstr "切换标题，例如：单击我！"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:43
+msgid "Status by loading e.g. open"
+msgstr "加载状态，例如：打开"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:44
+msgid "Toggle style e.g. 2 (by default: 1)"
+msgstr "切换风格，例如2（默认是：1）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:54
+msgid "F I E L D S E T  :  Allows to highlight selected content."
+msgstr "FIELDSET：允许突出选定的内容。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:56
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:69
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:133
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:174
+msgid "Width e.g. 200px, 50%, 7em etc."
+msgstr "宽度，例如：200px, 50%, 7em 等"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:57
+msgid "Height e.g. 200px"
+msgstr "高度，例如：200像素"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:58
+msgid "Margin by left & right sides e.g. 25px, 5%, 3em etc."
+msgstr "滑块左，右两侧的外边距，例如 25px, 5%, 3em 等。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:59
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:72
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:108
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:135
+msgid "Align e.g. left -or- right -or- center"
+msgstr "对齐 例如 左或右或中"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:60
+msgid "Text align inside the fieldset e.g. left -or- right -or- center"
+msgstr "段落中的文字对齐，例如 座，右，中"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:61
+msgid "Legend e.g. Take a look!"
+msgstr "传说，例如看一看！"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:62
+msgid "An icon before legend e.g. asterisk_orange.png Another 250+ icons you will find on website http://topbusiness.pandathemes.com/shortcodes/icons/"
+msgstr "传说之前的图标，例如：asterisk_orange.png，其他250+图标你可以在这个网站找到 http://topbusiness.pandathemes.com/shortcodes/icons/"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:67
+msgid "P R I C I N G   B O X  :  A stylish pricing boxes."
+msgstr "价格框：一个时尚的价格框"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:70
+msgid "Height e.g. 200 (numbers only)"
+msgstr "高度 例如：200（仅数字）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:71
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:105
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:134
+msgid "Margin by left & right sides in pixels e.g. 25"
+msgstr "滑块左右外边距（像素），例如25"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:74
+msgid "The title of pricing box e.g. Product Name"
+msgstr "价格框标题，例如：产品名称"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:75
+msgid "The title of pricing box e.g. 35 USD  -or-  <strong>9.95</strong> usd <small>/ month</small>  -or-  <sup>$</sup> <strong>9.95</strong> <small>/ mo.</small>"
+msgstr "价格框标题，例如：350 美金 或 <strong>9.95</strong> usd <small>/ month</small>  -or-  <sup>$</sup> <strong>9.95</strong> <small>/ mo.</small>"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:76
+msgid "Text button e.g. Buy Now (be default: Purchase)"
+msgstr "文字按钮，例如 立即购买（默认：购买）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:77
+msgid "The button tagline e.g. Product Name (by default: The title of pricing box)"
+msgstr "按钮标语 例如：产品名称（默认：价格框标题）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:83
+msgid "N O T E  :  Alarms & important messages."
+msgstr "注意：警告及重要讯息。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:85
+msgid "The kind of note e.g. alert, tip, pin, help, flag, no, yes (by default: pin)"
+msgstr "值得注意的，例如，尖，针，帮助，标志，不，是（默认：针）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:90
+msgid "M A R K E R  :  Allows to highlight selected text."
+msgstr "标记：允许突出显示选定的文本。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:92
+msgid "Marker color e.g. #BEDB00, yellow, blue, green, gray, orange etc."
+msgstr "标记的颜色，例如＃BEDB00，黄，蓝，绿，灰，橙等。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:102
+msgid "Q U O T E  :  Blockquote with authors name, tagline and photo."
+msgstr "引用：作者姓名，标语和照片的大段引用。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:104
+msgid "Width by pixels e.g. 200"
+msgstr "宽度（像素），例如：200"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:109
+msgid "Blockquote author e.g. John Doe"
+msgstr "引用作者，例如John Doe"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:110
+msgid "Tagline e.g. CEO, Company Name"
+msgstr "标语，例如：总裁，公司名"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:111
+msgid "Userpic from library by ID e.g. 1, 2, 3 , 4 , 5 , 6 or 7"
+msgstr "库中的编号ID，例如1，2，3，4，5，6或7"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:112
+msgid "Custom userpic from selected image e.g. http://yoursite.com/image.jpg"
+msgstr "自定义userpic从选定的图像 例如. http://yoursite.com/image.jpg"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:117
+msgid "D R O P C A P  :  A first letter as drop cap."
+msgstr "DROPCAP：下沉的第一个字母。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:119
+msgid "Font size in pixels e.g. 48"
+msgstr "文字尺寸（像素），例如48"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:131
+msgid "S I D E B A R  :  Any sidebar on any place of page."
+msgstr "边栏：任何侧边栏，页面的任何地方。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:136
+msgid "Sidebar name e.g. Side 1"
+msgstr "侧边栏名 例如 侧边栏1"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:141
+msgid "D I V I D E R  :  Horizontal divider."
+msgstr "DIVIDER:水平分割。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:146
+msgid "L I N E  :  Horizontal line."
+msgstr "LINE:水平线。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:151
+msgid "I C O N  :  Allows to attach the 16px icon to any text."
+msgstr "图标：允许附加16px的图标到任何文本。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:153
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:165
+msgid "Icons name e.g. accept.png Another 250+ icons you will find on website http://topbusiness.pandathemes.com/shortcodes/icons/"
+msgstr "图标名称 例如 accept.png 其他250+在这个网站上找 http://topbusiness.pandathemes.com/shortcodes/icons/"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:154
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:166
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:178
+msgid "Custom icon e.g. http://yoursite.com/icon.png"
+msgstr "自定义图标，例如http://yoursite.com/icon.png"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:162
+msgid "E M A I L  :  An advanced mailto link."
+msgstr "E M A I L  :一个先进的mailto链接。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:164
+msgid "Target email address e.g. mailbox@website.tld"
+msgstr "目标电子邮件地址，例如mailbox@website.tld"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:172
+msgid "I C O N  6 0  :  An animated 32px icon with text."
+msgstr "I C O N  6 0  :  32px图标与文字动画。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:175
+msgid "Margins e.g. 10px"
+msgstr "外边距，例如10像素"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:176
+msgid "Font size in pixels e.g. 24. By default is 16."
+msgstr "字体大小24像素。默认是16。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:177
+msgid "Icons ID (1-28) e.g. 5. Take a look icons at http://topbusiness.pandathemes.com/shortcodes/icon60/"
+msgstr "图标ID（1-28），例如：5，查看图标：http://topbusiness.pandathemes.com/shortcodes/icon60/"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:181
+msgid "Background of placeholder"
+msgstr "背景占位符"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:182
+msgid "Background of placeholder by mouse hover"
+msgstr "鼠标悬停背景的占位符"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:183
+msgid "Text color"
+msgstr "文字颜色"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:184
+msgid "Text color by mouse hover"
+msgstr "鼠标悬停文字颜色"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:185
+msgid "Background of icon"
+msgstr "背景图标"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:186
+msgid "Background of icon by mouse hover"
+msgstr "鼠标悬停背景图标"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:187
+msgid "Custom class of link wrapper"
+msgstr "自定义链接封装类"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:197
+msgid "P O S T S  :  A recent & related posts with thumbnails & metas. Custom size & crop area of thumbs. List & grid views. Unlimited times per page."
+msgstr "文章：带缩略图及元的最近及相关文章。自定义大小及剪裁缩略图区域。列表及平铺视图。每页无限次。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:199
+msgid "Width e.g. 200px, 50%, 9em etc."
+msgstr "宽度，例如  200px, 50%, 9em etc."
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:200
+msgid "Margins by left & right sides in pixels e.g. 25"
+msgstr "滑块左右外边距（像素） ，例如25"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:201
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:263
+msgid "Alignment e.g. left -or- right -or- center"
+msgstr "对齐，例如左或右或中心"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:202
+msgid "Grid view. Set the number of columns e.g. 3 (Default: NULL, same as list view)"
+msgstr "平铺视图，设置列数，例如：3（默认：空，列表）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:203
+msgid "Posts type e.g. recent -or- related"
+msgstr "文章类型，例如：相关或最新"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:204
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:228
+msgid "Posts categories by comma e.g. 9,1,20 etc."
+msgstr "逗号分隔文章类别，例如9,1,20等。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:205
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:229
+msgid "Posts quantity e.g. 5"
+msgstr "文章的数量，例如5"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:206
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:230
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:249
+msgid "Sort retrieved posts by parameter e.g. date, rand, ID, title, modified, comment_count, menu_order"
+msgstr "按参数分类检索 例如date, rand, ID, title, modified, comment_count, menu_order"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:207
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:231
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:250
+msgid "Designates the ascending or descending order e.g. DESC -or- ASC"
+msgstr "指定升序或降序，例如倒序-或-ASC"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:208
+msgid "Post titles enabled e.g. yes -or- no"
+msgstr "启用文章标题，例如 是或否"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:209
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:232
+msgid "Post titles tag e.g. h3, h4, strong etc."
+msgstr "文章标题标签，例如：h3, h4, strong 等"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:210
+msgid "Post date enabled e.g. yes (Default: NULL), (Disabled)"
+msgstr "启用发布日期，例如（默认值：空），（禁用）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:211
+msgid "Post categories e.g. yes (Default: NULL), (Disabled)"
+msgstr "文章类别 例如 是  (默认: 空), (禁用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:212
+msgid "Post tags e.g. yes (Default: NULL), (Disabled)"
+msgstr "文章标签 例如：是 (默认: 空), (禁用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:213
+msgid "Post comments counter e.g. yes (Default: NULL), (Disabled)"
+msgstr "文章评论计算器 例如 是 (默认:空L), (禁用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:214
+msgid "Post excerpt e.g. yes (Default: NULL), (Disabled)"
+msgstr "文章摘录 例如. 是 (默认: 空), (禁用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:215
+msgid "Post thumbnail & thumb alignment e.g. left -or- right -or- center. (Default: none)"
+msgstr "文章缩略图对齐，例如：左或右或中（默认：无）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:216
+msgid "Thumbnail width in pixels e.g. 150 (Default: 100)"
+msgstr "缩略图宽度 （像素） 例如150（默认100）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:217
+msgid "Thumbnail height in pixels e.g. 150 (Default: 100)"
+msgstr "缩略图高度 （像素） 例如150（默认100）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:218
+msgid "Thumbnail crop area e.g. top (Default: NULL, same as by center)"
+msgstr "缩略图剪裁区域 例如 顶部（默认空，居中）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:219
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:238
+msgid "Read More button e.g. no -or- Learn More, Details etc. (Default: Read More), (Enabled). This parameter has two destinations: A) Button will be displayed in case the button attribute is not no. B) Button text."
+msgstr "阅读更多按钮 例如："
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:220
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:241
+msgid "Number of post to displace or pass over e.g. 1 (Default: 0)"
+msgstr "替换文章数量 例如：1（默认：0）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:225
+msgid "P O S T S #2  :  A recent posts as slider with thumbnails & metas. Custom size & crop area of thumbs. Different transitions. Autoplay. Autoheight. Unlimited times per page."
+msgstr "文章 #2 ：带缩略图和元的最近文章作为滑块。自定义缩略图尺寸和剪裁区域。不同的过渡，自动播放，自动高度，每页无限次。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:227
+msgid "Width in pixels e.g. 600 (Default: 560)"
+msgstr "宽度（像素） 例如：600（默认560）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:233
+msgid "Thumbnails crop area e.g. top (Default: NULL, same as by center)"
+msgstr "缩略图剪裁区域 例如：顶部（默认：空，按中）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:234
+msgid "Post thumbnail & thumb alignment e.g. right (Default: left)"
+msgstr "文章缩略图对齐 例如：右（默认左）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:235
+msgid "Sliders floating e.g. left -or- right (Default: NULL, same as none)"
+msgstr "滑块浮动 例如：左或右（默认：空）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:236
+msgid "Post date enabled e.g. no (Default: NULL), (Enabled)"
+msgstr "文章日期启用，例如：无（默认:空）,(启用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:237
+msgid "Post excerpt e.g. no (Default: NULL), (Enabled)"
+msgstr "文章摘录，例如：无（默认：空）（启用）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:239
+msgid "Kind of transition e.g. ptd (no transition), ptf (fade), ptfv (fade vertical), ptv (slide vertical), pth (slide horizontal), pto (overlay vertical), (Default: ptf)"
+msgstr "一种过渡 例如：ptd (no transition), ptf (fade), ptfv (fade vertical), ptv (slide vertical), pth (slide horizontal), pto (overlay vertical), (Default: ptf)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:240
+msgid "Autoplay in seconds e.g. 5 (Default: NULL), (Disabled)"
+msgstr "自动播放（秒） 例如5(默认: 空), (禁用)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:246
+msgid "P R O D U C T S  :  A list of products. Grid view."
+msgstr "产品：产品清单。平铺视图。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:248
+msgid "Products quantity e.g. 8 (Default: 4)"
+msgstr "产品数量 例如：8（默认4）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:255
+msgid "I M G  :  Short way to insert large image without manual resizing. Automatic resize. Automatic lightbox. Crop selection. Caption allowed. Unlimited times per page."
+msgstr "图像：大图像快捷插入，无需人工调整。自动调整大小。自动灯箱。剪裁至选取区域。标题允许。每页无限次。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:257
+msgid "Image source e.g. http://yoursite.com/image.jpg"
+msgstr "图像来源 例如 http://yoursite.com/image.jpg"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:258
+msgid "Width in pixels e.g. 200 (Default: 100)"
+msgstr "宽度（像素），例如：200（默认：100）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:259
+msgid "Height in pixels e.g. 200 (Default: 100)"
+msgstr "高度（像素） 例如：200（默认100）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:260
+msgid "Crop area e.g. top (Default: NULL, same as by center)"
+msgstr "裁剪区域，例如顶部（默认值：空，由中心）"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:261
+msgid "Image title e.g. My cat Tomas"
+msgstr "图像标题，例如：我的猫托马斯"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:262
+msgid "Alternative text (caption) e.g. It likes to sleep on my desk."
+msgstr "替代文字（标题），例如它喜欢我的桌子上睡觉。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:268
+msgid "H I D D E N  :  A part of content available for registered visitors only."
+msgstr "H I D D E N  :  仅为注册访问者提供内容的一部分。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:273
+msgid "V I S I B L E  :  A part of content available for non-logged visitors only."
+msgstr "V I S I B L E  :  仅为非登录访客提供内容的一部分"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:283
+msgid "P A G E S  :  A list of pages"
+msgstr "页面：页面列表"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:285
+msgid "Exclude pages selected by IDs e.g. 9,40,1,51"
+msgstr "排除已选择的页面ID，例如 9,40,1,51"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:286
+msgid "Display pages only selected by IDs e.g. 9,40,1,51"
+msgstr "显示已选择的页面ID，例如 9,40,1,51"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:291
+msgid "C A T E G O R I E S  :  A list of categories"
+msgstr "类别：一个类别列表"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:293
+msgid "Exclude categories selected by IDs e.g. 9,40,1,51"
+msgstr "排除已选择的类别ID，例如9,40,1,51"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:294
+msgid "Display categories only selected by IDs e.g. 9,40,1,51"
+msgstr "显示已选择的类别ID，例如9,40,1,51"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:299
+msgid "A R C H I V E S  :  A list of archives."
+msgstr "存档：存档列表"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:304
+msgid "T W E E T  :  Twitter button."
+msgstr "T W E E T ：Twitter 按钮"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:309
+msgid "L I K E  :  Facebook LIKE button."
+msgstr "喜欢 :  Facebook LIKE 按钮."
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:314
+msgid "C L E A R  :  Preventing of floating. Custom vertical space."
+msgstr "清除：防止浮动，自定义垂直空间"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:316
+msgid "Custom height in pixels e.g. 25"
+msgstr "自定义高度（像素），例如25"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:328
+msgid "Insert or Edit Shortcode"
+msgstr "插入或编辑简码"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1003
+msgid "Each shortcode &amp; each attribute has a tooltip with short instruction of usage. Take a look that."
+msgstr "每个简码及每个属性有一个工具提示。看一看。"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1004
+msgid "For the best experience take a look an examples of usage. Live-demo allow to see <a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/\">all shortcodes</a> in action."
+msgstr "为了获得最佳体验看看例子的用法。演示地址允许查看<a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/\">全部简码</a>部分"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1005
+msgid "A double-level shortcodes like a <a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/content/slider/\">Slider</a> or <a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/navigation/tabs/\">Tabs</a> do not included into this editor. You need to use that by manually, however it is not difficult :)"
+msgstr "双层简码就像<a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/content/slider/\">滑块</a> 或 <a target=\"_blank\" href=\"http://topbusiness.pandathemes.com/shortcodes/navigation/tabs/\">切换卡</a>不纳入此编辑器。你需要通过手动编辑，但是它并不难:)"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1013
+msgid "Shortcode"
+msgstr "简码"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1088
+msgid "Apply"
+msgstr "应用"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1096
+msgid "Uncheck"
+msgstr "取消选中"
+
+#: ../admin/includes/tinymce/plugins/shortcode-editor/dialog.php:1097
+msgid "Remove"
+msgstr "删除"
+
+#: ../admin/includes/shortcodes/posts.php:221
+#: ../admin/includes/shortcodes/posts.php:430
+msgid "Posted in"
+msgstr "发表在"
+
+#: ../admin/includes/shortcodes/shortcodes.php:160
+msgid "This part of the content is only available to members. Please login to view hidden text."
+msgstr "这部分内容是仅提供给会员。请登陆以查看隐藏文字。"
+
+#: ../admin/includes/shortcodes/shortcodes.php:332
+#: ../admin/includes/custom_post_type/products.php:225
+#: ../admin/includes/custom_post_type/products.php:439
+msgid "Purchase"
+msgstr "购买"
+
+#: ../admin/includes/shortcodes/shortcodes.php:844
+msgid "The tabs do not selected. Use the 'names' attribute."
+msgstr "没有选择的标签。使用“名称”属性。"
+
+#: ../admin/includes/custom_post_type/products.php:25
+#: ../admin/includes/custom_post_type/sliders.php:25
+msgid "Add New"
+msgstr "添加新的"
+
+#: ../admin/includes/custom_post_type/products.php:26
+msgid "Add New Product"
+msgstr "添加新产品"
+
+#: ../admin/includes/custom_post_type/products.php:27
+msgid "Edit Product"
+msgstr "编辑产品"
+
+#: ../admin/includes/custom_post_type/products.php:28
+msgid "New Product"
+msgstr "新产品"
+
+#: ../admin/includes/custom_post_type/products.php:29
+msgid "View Product"
+msgstr "查看产品"
+
+#: ../admin/includes/custom_post_type/products.php:30
+msgid "Search Product"
+msgstr "搜索产品"
+
+#: ../admin/includes/custom_post_type/products.php:31
+msgid "No products found"
+msgstr "没找到产品"
+
+#: ../admin/includes/custom_post_type/products.php:32
+msgid "No products found in Trash"
+msgstr "回收站里没有产品"
+
+#: ../admin/includes/custom_post_type/products.php:36
+msgid "A group of posts which can be used as portfolio of products."
+msgstr "可以使用作为作品集或产品的一组文章"
+
+#: ../admin/includes/custom_post_type/products.php:59
+msgid "Catalogs"
+msgstr "目录"
+
+#: ../admin/includes/custom_post_type/products.php:60
+#: ../admin/includes/custom_post_type/products.php:871
+msgid "Catalog"
+msgstr "目录"
+
+#: ../admin/includes/custom_post_type/products.php:227
+#: ../admin/includes/custom_post_type/products.php:501
+msgid "Custom tab"
+msgstr "自定义标签"
+
+#: ../admin/includes/custom_post_type/products.php:237
+msgid "Short description"
+msgstr "简要描述"
+
+#: ../admin/includes/custom_post_type/products.php:242
+msgid "e.g. tagline or major feature."
+msgstr "例如：标语或主要功能。"
+
+#: ../admin/includes/custom_post_type/products.php:254
+msgid "e.g. Live demo, Live preview etc."
+msgstr "例如：演示地址，预览等"
+
+#: ../admin/includes/custom_post_type/products.php:259
+#: ../admin/includes/custom_post_type/products.php:446
+msgid "URL"
+msgstr "URL"
+
+#: ../admin/includes/custom_post_type/products.php:262
+msgid "Enter an URL to live-preview."
+msgstr "输入预览URL地址"
+
+#: ../admin/includes/custom_post_type/products.php:268
+msgid "Label"
+msgstr "标签"
+
+#: ../admin/includes/custom_post_type/products.php:273
+msgid "In case you'd like to add the label please enter that here e.g. Best choice, Sale, Ultimate edition etc. or leave this field an empty."
+msgstr "如果你想添加标签，请在这里输入，例如：最好的选择，促销，终极版等或留空。"
+
+#: ../admin/includes/custom_post_type/products.php:296
+#: ../admin/includes/custom_post_type/products.php:323
+msgid "Select image"
+msgstr "选择图像"
+
+#: ../admin/includes/custom_post_type/products.php:356
+#: ../admin/includes/custom_post_type/products.php:362
+#: ../admin/includes/custom_post_type/products.php:372
+msgid "Parameter"
+msgstr "参数"
+
+#: ../admin/includes/custom_post_type/products.php:357
+#: ../admin/includes/custom_post_type/products.php:363
+#: ../admin/includes/custom_post_type/products.php:373
+msgid "Value"
+msgstr "值"
+
+#: ../admin/includes/custom_post_type/products.php:383
+msgid "Please, save this product as draft before adding the specifications. Do not forget to set the title before saving."
+msgstr "请在添加规格之前别忘记保存此产品为草稿，保存之前不要忘了设置标题。"
+
+#: ../admin/includes/custom_post_type/products.php:384
+#: ../admin/includes/custom_post_type/sliders.php:360
+msgid "Add new"
+msgstr "添加新"
+
+#: ../admin/includes/custom_post_type/products.php:385
+msgid "Update specs"
+msgstr "更新规格"
+
+#: ../admin/includes/custom_post_type/products.php:400
+msgid "Cost"
+msgstr "费用"
+
+#: ../admin/includes/custom_post_type/products.php:402
+#: ../admin/includes/custom_post_type/products.php:872
+msgid "Price"
+msgstr "价格"
+
+#: ../admin/includes/custom_post_type/products.php:405
+msgid "e.g. $19.95, 19 USD, FREE etc."
+msgstr "例如.$19.95, 19 USD, 免费 等."
+
+#: ../admin/includes/custom_post_type/products.php:410
+msgid "Old price"
+msgstr "原价"
+
+#: ../admin/includes/custom_post_type/products.php:417
+msgid "Select the type"
+msgstr "选择类型"
+
+#: ../admin/includes/custom_post_type/products.php:426
+msgid "Custom"
+msgstr "自定义"
+
+#: ../admin/includes/custom_post_type/products.php:441
+msgid "e.g. Purchase, Buy now, Checkout, Download etc."
+msgstr "例如:购买，现在购买，结账，下载等"
+
+#: ../admin/includes/custom_post_type/products.php:449
+msgid "e.g. http://gateway.tld/checkout/ -OR- path to archive file in case that for free."
+msgstr "例如： http://gateway.tld/checkout/ 或 如果存档文件免费路径"
+
+#: ../admin/includes/custom_post_type/products.php:457
+msgid "Direct link"
+msgstr "直接链接"
+
+#: ../admin/includes/custom_post_type/products.php:458
+msgid "By default, a target URL will be opened at new window using a redirect, however, you can use a direct link instead of redirect."
+msgstr "默认情况下，目标URL将打开新的窗口，使用重定向，然而，你可以使用一个直接链接，而不是重定向。"
+
+#: ../admin/includes/custom_post_type/products.php:463
+msgid "Before button"
+msgstr "按钮之前"
+
+#: ../admin/includes/custom_post_type/products.php:466
+msgid "If you need to display an additional information above the button please put it on here."
+msgstr "如果您需要显示一个按钮上方的其他信息，请把它放在这里。"
+
+#: ../admin/includes/custom_post_type/products.php:471
+msgid "After button"
+msgstr "按钮之后"
+
+#: ../admin/includes/custom_post_type/products.php:474
+msgid "An additional information below the button please put on here."
+msgstr "更多信息，请下面的按钮放在这里。"
+
+#: ../admin/includes/custom_post_type/products.php:485
+msgid "In case you would like to display a custom button (e.g. PayPal button) please put it on here."
+msgstr "如果你想显示一个自定义按钮（如PayPal按钮），请把它放在这里。"
+
+#: ../admin/includes/custom_post_type/products.php:503
+msgid "Tab title"
+msgstr "切换标题"
+
+#: ../admin/includes/custom_post_type/products.php:506
+msgid "e.g. Video, Misc etc."
+msgstr "例如：视频、音乐等"
+
+#: ../admin/includes/custom_post_type/products.php:514
+msgid "Paste content here."
+msgstr "粘贴内容到这里"
+
+#: ../admin/includes/custom_post_type/products.php:869
+msgid "Product Title"
+msgstr "产品标题"
+
+#: ../admin/includes/custom_post_type/products.php:870
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: ../admin/includes/custom_post_type/sliders.php:23
+msgid "Sliders"
+msgstr "滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:26
+msgid "Add New Slider"
+msgstr "添加新滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:27
+msgid "Edit Slider"
+msgstr "编辑滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:28
+msgid "New Slider"
+msgstr "新滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:29
+msgid "View Slider"
+msgstr "查看滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:30
+msgid "Search Slider"
+msgstr "搜索滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:31
+msgid "No sliders found"
+msgstr "没找到滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:32
+msgid "No sliders found in Trash"
+msgstr "回收站里没有滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:36
+msgid "A group of posts which can be used as sliders."
+msgstr "A组可以用作滑块的文章。"
+
+#: ../admin/includes/custom_post_type/sliders.php:154
+msgid "Slides"
+msgstr "滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:156
+#: ../admin/includes/custom_post_type/sliders.php:377
+msgid "Options"
+msgstr "选项"
+
+#: ../admin/includes/custom_post_type/sliders.php:176
+#: ../admin/includes/custom_post_type/sliders.php:186
+#: ../admin/includes/custom_post_type/sliders.php:268
+msgid "no image"
+msgstr "没有图片"
+
+#: ../admin/includes/custom_post_type/sliders.php:191
+#: ../admin/includes/custom_post_type/sliders.php:287
+msgid "Title"
+msgstr "标题"
+
+#: ../admin/includes/custom_post_type/sliders.php:213
+#: ../admin/includes/custom_post_type/sliders.php:309
+msgid "Browse image"
+msgstr "浏览图像"
+
+#: ../admin/includes/custom_post_type/sliders.php:220
+#: ../admin/includes/custom_post_type/sliders.php:316
+msgid "Target URL"
+msgstr "目标路径"
+
+#: ../admin/includes/custom_post_type/sliders.php:232
+#: ../admin/includes/custom_post_type/sliders.php:328
+msgid "Open at new window"
+msgstr "在新窗口打开"
+
+#: ../admin/includes/custom_post_type/sliders.php:359
+msgid "Please, save this slider as draft before adding the slides. Do not forget to set the title before saving."
+msgstr "请在添加滑块之前保存为草稿，保存之前不要忘记设置标题"
+
+#: ../admin/includes/custom_post_type/sliders.php:361
+msgid "Update slides"
+msgstr "更新滑块"
+
+#: ../admin/includes/custom_post_type/sliders.php:379
+msgid "Transition"
+msgstr "过渡"
+
+#: ../admin/includes/custom_post_type/sliders.php:386
+msgid "Fade"
+msgstr "褪色"
+
+#: ../admin/includes/custom_post_type/sliders.php:387
+msgid "Fade vertical"
+msgstr "垂直褪色"
+
+#: ../admin/includes/custom_post_type/sliders.php:388
+msgid "Slide vertical"
+msgstr "垂直滑动"
+
+#: ../admin/includes/custom_post_type/sliders.php:389
+msgid "Slide horizontal"
+msgstr "水平滑入"
+
+#: ../admin/includes/custom_post_type/sliders.php:390
+msgid "Overlay vertical"
+msgstr "垂直叠加"
+
+#: ../admin/includes/custom_post_type/sliders.php:403
+msgid "Select a kind of transition."
+msgstr "选择个切换类型"
+
+#: ../admin/includes/custom_post_type/sliders.php:408
+msgid "Delay"
+msgstr "延迟"
+
+#: ../admin/includes/custom_post_type/sliders.php:420
+msgid "seconds"
+msgstr "秒"
+
+#: ../admin/includes/custom_post_type/sliders.php:421
+msgid "Select a time delay between transitions."
+msgstr "选择过渡延时时间"
+
+#: ../admin/includes/custom_post_type/sliders.php:428
+msgid "Update options"
+msgstr "更新选项"
+
+#: ../admin/includes/custom_post_type/sliders.php:443
+msgid "Slider Options do not available on sidebar. Please, move the Slider Options bar on the central section."
+msgstr "滑块选项不适用于侧边栏。请移动滑块选项栏上的中央部分。"
+
+#: ../admin/includes/buddy/bpt-functions.php:79
+msgid "My Favorites"
+msgstr "我的收藏"
+
+#: ../admin/includes/buddy/bpt-functions.php:80
+msgid "Accepted"
+msgstr "接受"
+
+#: ../admin/includes/buddy/bpt-functions.php:81
+msgid "Rejected"
+msgstr "拒绝"
+
+#: ../admin/includes/buddy/bpt-functions.php:82
+msgid "Show all comments for this thread"
+msgstr "显示此主题的所有评论"
+
+#: ../admin/includes/buddy/bpt-functions.php:83
+msgid "Show all"
+msgstr "显示所有"
+
+#: ../admin/includes/buddy/bpt-functions.php:84
+msgid "comments"
+msgstr "评论"
+
+#: ../admin/includes/buddy/bpt-functions.php:85
+msgid "Close"
+msgstr "关闭"
+
+#: ../admin/includes/buddy/bpt-functions.php:92
+#: ../activity/entry.php:33
+msgid "View"
+msgstr "查看"
+
+#: ../activity/activity-loop.php:41
+msgid "Load More"
+msgstr "加载更多"
+
+#: ../activity/activity-loop.php:53
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr "对不起，没有找到。请尝试不同的过滤器。"
+
+#: ../activity/comment.php:28
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr "<a href=\"%1$s\">%2$s</a> 回答 <a href=\"%3$s\" class=\"activity-time-since\"><span class=\"time-since\">%4$s</span></a>"
+
+#: ../activity/entry.php:31
+msgid "In reply to: "
+msgstr "答复："
+
+#: ../activity/entry.php:33
+msgid "View Thread / Permalink"
+msgstr "查看螺纹/固定链接"
+
+#: ../activity/entry.php:59
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr "评论<span>%s</span>"
+
+#: ../activity/entry.php:65
+msgid "Favorite"
+msgstr "收藏"
+
+#: ../activity/entry.php:67
+msgid "Remove Favorite"
+msgstr "删除收藏"
+
+#: ../activity/entry.php:107
+msgid "Post"
+msgstr "文章"
+
+#: ../activity/entry.php:107
+msgid "or press esc to cancel."
+msgstr "或按ESC取消。"
+
+#: ../activity/index.php:24
+msgid "Site Activity"
+msgstr "站点活动"
+
+#: ../activity/index.php:48
+msgid "The public activity for everyone on this site."
+msgstr "这个网站的公众活动。"
+
+#: ../activity/index.php:66
+msgid "The activity of my friends only."
+msgstr "我朋友的唯一活动。"
+
+#: ../activity/index.php:84
+msgid "The activity of groups I am a member of."
+msgstr "团体活动，我是其中之一"
+
+#: ../activity/index.php:100
+msgid "The activity I've marked as a favorite."
+msgstr "我已经标记为喜爱的活动。"
+
+#: ../activity/index.php:100
+#, php-format
+msgid "My Favorites <span>%s</span>"
+msgstr "我的收藏<span>%s</span>"
+
+#: ../activity/index.php:111
+msgid "Activity that I have been mentioned in."
+msgstr "我已经提到的活动"
+
+#: ../activity/index.php:111
+msgid "Mentions"
+msgstr "提到"
+
+#: ../activity/index.php:111
+#, php-format
+msgid "<span>%s new</span>"
+msgstr "<span>%s new</span>"
+
+#: ../activity/index.php:175
+msgid "New Members"
+msgstr "新成员"
+
+#: ../activity/post-form.php:21
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr "新闻%s, %s?"
+
+#: ../activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr "新闻，%s?"
+
+#: ../activity/post-form.php:41
+msgid "Post Update"
+msgstr "文章更新"
+
+#: ../activity/post-form.php:51
+msgid "Post in"
+msgstr "发表在"
+
+#: ../achievements/achievements-loop.php:23
+#, php-format
+msgid "This Achievement is worth %s points."
+msgstr "这个成果是值 %s点"
+
+#: ../achievements/achievements-loop.php:29
+#, php-format
+msgid "Unlocked %s"
+msgstr "解锁 %s"
+
+#: ../achievements/achievements-loop.php:42
+msgid "Inactive"
+msgstr "无效"
+
+#: ../achievements/achievements-loop.php:79
+#, php-format
+msgid "There were no Achievements found matching &ldquo;%s.&rdquo;"
+msgstr "没有发现成果匹配&ldquo;%s.&rdquo;"
+
+#: ../achievements/achievements-loop.php:81
+msgid "You haven't unlocked any Achievements yet"
+msgstr "你还没有解锁任何成果"
+
+#: ../achievements/achievements-loop.php:83
+#, php-format
+msgid "%s hasn't unlocked any Achievements yet"
+msgstr "%s 没有可以解锁的成果"
+
+#: ../achievements/achievements-loop.php:85
+msgid "Oops, no Achievements were found!"
+msgstr "对不起，没找到成功。"
+
+#: ../achievements/create.php:18
+#: ../achievements/_addedit.php:124
+msgid "Create Achievement"
+msgstr "创建成果"
+
+#: ../achievements/create.php:18
+#: ../achievements/index.php:22
+msgid "Achievements Directory"
+msgstr "成果名录"
+
+#: ../achievements/create.php:50
+#: ../achievements/single/edit.php:4
+msgid "Some of the Action options below may not be relevant to the type or event of the Achievement."
+msgstr "以下可能是不相关的类型或事件的成果的一些动作选择"
+
+#: ../achievements/create.php:54
+msgid "After you create the Achievement, you'll be able to choose a picture for it."
+msgstr "你创建成果后，你就可以选择它的图片。"
+
+#: ../achievements/index.php:22
+msgid "Create an Achievement"
+msgstr "创建成果"
+
+#: ../achievements/index.php:42
+#, php-format
+msgid "All Achievements <span>%s</span>"
+msgstr "全部成果 <span>%s</span>"
+
+#: ../achievements/index.php:52
+#, php-format
+msgid "My Achievements <span>%s</span>"
+msgstr "我的成果 <span>%s</span>"
+
+#: ../achievements/_addedit.php:7
+msgid "Action"
+msgstr "动作"
+
+#: ../achievements/_addedit.php:12
+msgid "An <em>award</em> is given by a site admin, whereas an <em>event</em> is unlocked automatically when its criteria are met."
+msgstr "管理员已经授予一个<em>奖</em>，<em>事件</em>的条件得到满足时自动解锁。"
+
+#: ../achievements/_addedit.php:19
+msgid "Event"
+msgstr "新闻"
+
+#: ../achievements/_addedit.php:27
+msgid "When the event occurs this many times"
+msgstr "当事件发生很多次"
+
+#: ../achievements/_addedit.php:36
+msgid "In this group"
+msgstr "在本组"
+
+#: ../achievements/_addedit.php:46
+msgid "On this site"
+msgstr "在本站"
+
+#: ../achievements/_addedit.php:63
+msgid "Info"
+msgstr "信息"
+
+#: ../achievements/_addedit.php:72
+msgid "Explain how to unlock this Achievement."
+msgstr "解释如何解开这个成果。"
+
+#: ../achievements/_addedit.php:78
+msgid "Points are awarded when Achievements are unlocked. They are used as a measurement of contribution to your site."
+msgstr "点被授予解锁成果时。它们被用来作为一个作者贡献到您的的网站的测量。"
+
+#: ../achievements/_addedit.php:92
+msgid "Advanced settings"
+msgstr "高级设置"
+
+#: ../achievements/_addedit.php:94
+msgid "Active"
+msgstr "活动"
+
+#: ../achievements/_addedit.php:95
+msgid "Is this Achievement active?"
+msgstr "这一成果是活跃的吗？"
+
+#: ../achievements/_addedit.php:100
+msgid "Hidden"
+msgstr "隐藏"
+
+#: ../achievements/_addedit.php:101
+msgid "Hide this Achievement in the Directory and from search results?"
+msgstr "从群组目录和搜索结果中隐藏此成果。"
+
+#: ../achievements/_addedit.php:106
+msgid "Slug"
+msgstr "别名"
+
+#: ../achievements/_addedit.php:107
+msgid "The <em>slug</em> constitutes part of the link to this Achievement."
+msgstr "这 <em>别名</em> 构成成果链接的一部分."
+
+#: ../achievements/_addedit.php:119
+msgid "Update Achievement"
+msgstr "更新成果"
+
+#: ../achievements/single/achievement-header.php:21
+msgid "Award"
+msgstr "奖"
+
+#: ../achievements/single/achievement-header.php:27
+msgid "Inactive Achievement"
+msgstr "无效成果"
+
+#: ../achievements/single/change-picture.php:17
+#, php-format
+msgid "We've noticed that you've got a lot of pictures to choose from. <a href='%s'>Set a filter</a> to restrict which images are retrieved from your <a href='%s'>WordPress Media Library</a>."
+msgstr "我们注意到你选择了大量的图片。<a href='%s'>设置筛选</a>以检索图像从你的 <a href='%s'>WordPress 媒体库</a>."
+
+#: ../achievements/single/change-picture.php:28
+msgid "Update Picture"
+msgstr "更新图像"
+
+#: ../achievements/single/change-picture.php:48
+#, php-format
+msgid "Before you can choose a picture, you need to upload an image to the <a href='%s'>WordPress Media Library</a>."
+msgstr "你选择图像之前，需要上传图像到<a href='%s'>WordPress 媒体库</a>."
+
+#: ../achievements/single/change-picture.php:52
+msgid "Unfortunately, there aren't any pictures to choose from. You'll need to ask an Administrator to upload some to the WordPress Media Library for you."
+msgstr "哦，没有任何可供选择的图片。你需要管理员上传图片到WordPress媒体库。"
+
+#: ../achievements/single/delete.php:4
+msgid "WARNING: Any members who have unlocked this Achievement will have it removed. There is no way back, please be careful with this option."
+msgstr "警告：任何会员解锁此成果将删除它。没有办法找回来，请小心使用此选项。"
+
+#: ../achievements/single/delete.php:7
+msgid "I understand the consequences of deleting this Achievement."
+msgstr "我明白删去成果的后果。"
+
+#: ../achievements/single/delete.php:10
+msgid "Delete Achievement"
+msgstr "删除成果"
+
+#: ../achievements/single/grant.php:13
+msgid "Select people to give this Achievement to."
+msgstr "从您的朋友清单选择要给与成果的人。"
+
+#: ../achievements/single/grant.php:22
+msgid "Give Achievement"
+msgstr "给与成果"
+
