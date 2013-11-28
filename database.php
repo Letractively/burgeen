@@ -6,7 +6,7 @@
 				$User 								= "root";
 				$Pass 								= "";
 
-			mysql_connect($Hostname,$User,$Pass) or die("connection failed");
-			mysql_select_db($DataBase) or die("can't open the database");
+			mysql_connect($Hostname,$User,$Pass) or die("Koneksi gagal");
+			mysql_select_db($DataBase) or die("Database tidak bisa dibuka");
 
 ?>
