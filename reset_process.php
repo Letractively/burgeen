@@ -1,7 +1,7 @@
 <?php
 			include ("database.php");
 			session_start();
-			
+			$path=$_SESSION[path];
 			$user_id = uniqid('U');
 			$enrypt=md5($_POST[old_password]);
 			$q_reset= "select count(*) from user where password='$enrypt' and username='$_SESSION[username]'";
@@ -15,11 +15,11 @@
 				$q_update= "update user set password='$enrypt' where username='$_SESSION[username]'";
 				$hq_update	= mysql_db_query($DataBase,$q_update);
 				
-				header('location:http://127.0.0.1/wordpress2/');
+				header('location:'.$path.'');
 			}else //error
 			{
 				$_SESSION[reset_password]='failed';
-			   header('location:http://127.0.0.1/wordpress2/reset-password/');
+			   header('location:'.$path.'/reset-password/');
 			}
 			}
 			
