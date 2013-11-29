@@ -1,5 +1,6 @@
 <?php
 session_start();
+$path=$_SESSION[path];
 			include ("database.php");
 			
 			if($_SESSION[login]=='failed' or $_SESSION[login]=='')
@@ -21,17 +22,17 @@ session_start();
 			$_SESSION[user_type]=$user_type;
 			if($user_type=='entrepreneur')
 			{
-			header('location:http://127.0.0.1/wordpress2/entrepreneur_dashboard/');
+			header('location:'.$path.'/entrepreneur_dashboard/');
 			}else if($user_type=='investor')
 			{
-				header('location:http://127.0.0.1/wordpress2/investor_dashboard/');
+				header('location:'.$path.'/investor_dashboard/');
 			}
 			
 			}else
 			{
 			$_SESSION[login]='failed';
 			
-			header('location:http://127.0.0.1/wordpress2/login-page/');
+			header('location:'.$path.'/login-page/');
 			
 			}
 			}

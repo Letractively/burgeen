@@ -3,11 +3,11 @@
 
 		
 			session_start();
-			
+			$path=$_SESSION[path];
 			$_SESSION[proposal_id] = $_GET[proposal_id];
 			
 			
-			header('location:http://127.0.0.1/wordpress2/detail-proposal/');
+			header('location:'.$path.'/detail-proposal/');
 
 
 

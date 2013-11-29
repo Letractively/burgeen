@@ -5,7 +5,7 @@
 			session_start();
 			date_default_timezone_set('Asia/Singapore');
 			
-			
+			$path = $_SESSION[path];
 			$proposal_id = uniqid('P');
 			//echo $_POST[company_name];
 			$date = date('Y-m-d G:i:s');
@@ -13,7 +13,7 @@
 			$hq_proposal	= mysql_db_query($DataBase,$q_proposal);
 			//echo $q_proposal;
 			
-			header('location:http://127.0.0.1/wordpress2/entrepreneur_dashboard/');
+			header('location:'.$path.'/entrepreneur_dashboard/');
 
 
 

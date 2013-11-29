@@ -1,7 +1,7 @@
 <?php
 session_start();
-
+$path=$_SESSION[path];
 $_SESSION[login]='';
-header('location:http://127.0.0.1/wordpress2/');
+header('location:'.$path.'');
 
 ?>

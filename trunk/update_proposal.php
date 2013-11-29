@@ -3,12 +3,13 @@
 
 		include('database.php');
 			session_start();
+			$path=$_SESSION[path];
 			if(isset($_GET[proposal_id]))
 			{
 			$_SESSION[proposal_id] = $_GET[proposal_id];
 			
 			
-			header('location:http://127.0.0.1/wordpress2/edit-proposal/');
+			header('location:'.$path.'/edit-proposal/');
 			}else
 			{
 			
@@ -16,7 +17,7 @@
 			$hq_update_proposal	= mysql_db_query($DataBase,$q_update_proposal);
 			//echo $q_update_proposal;
 			
-			header('location:http://127.0.0.1/wordpress2/entrepreneur_dashboard/');
+			header('location:'.$path.'/entrepreneur_dashboard/');
 			
 			}
 
