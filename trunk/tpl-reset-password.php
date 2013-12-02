@@ -1,4 +1,4 @@
-<?phpsession_start();
+<?phpsession_start();
 
 /*
 Template Name: Template Reset Password
@@ -12,7 +12,7 @@ Template Name: Template Reset Password
 	$sidebar = get_post_meta($post->ID, 'sidebar_value', true);
 
 	?>
-<head><link rel='stylesheet' type='text/css' href='<?php echo bloginfo('template_url') ?>/register.css' /></head>	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>$(document).ready(function(){$("#reset-form").submit(function() {var valid = true; //initial set to trueif($("#old_password").val() === ""){    valid = false;	$("#old_password").css("border-color","red");    alert('old password cannot be empty');}if($("#new_password_1").val() === ""){   valid = false;   $("#new_password_1").css("border-color","red");   alert('new password cannot be empty');}if($("#new_password_2").val() === ""){   valid = false;   $("#new_password_2").css("border-color","red");   alert('new password cannot be empty');}if($("#new_password_1").val() == $("#old_password").val()){   valid = false;   $("#old_password").css("border-color","red");   $("#new_password_2").css("border-color","red");   $("#new_password_1").css("border-color","red");   alert('old password and new password cannot be the same');}if(valid){ return true;   //there is no error}else{  return false;}});});</script>	
+<head><link rel='stylesheet' type='text/css' href='<?php echo bloginfo('template_url') ?>/register.css' /></head>	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script>$(document).ready(function(){$("#reset-form").submit(function() {//initial set to truevar valid = true; if($("#old_password").val() === ""){    valid = false;	$("#old_password").css("border-color","red");    alert('old password cannot be empty');}if($("#new_password_1").val() === ""){   valid = false;   $("#new_password_1").css("border-color","red");   alert('new password cannot be empty');}if($("#new_password_2").val() === ""){   valid = false;   $("#new_password_2").css("border-color","red");   alert('new password cannot be empty');}if($("#new_password_1").val() == $("#old_password").val()){   valid = false;   $("#old_password").css("border-color","red");   $("#new_password_2").css("border-color","red");   $("#new_password_1").css("border-color","red");   alert('old password and new password cannot be the same');}if(valid){//there is no error return true;   }else{  return false;}});});</script>	
 	<div id="content">
 
 		<div class="contentbox <?php

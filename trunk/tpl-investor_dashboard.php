@@ -1,4 +1,4 @@
-<?phpsession_start();
+<?phpsession_start();
 include('database.php');
 /*
 Template Name: Template Investor dashboard
