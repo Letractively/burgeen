@@ -16,7 +16,10 @@
 				$hq_update	= mysql_db_query($DataBase,$q_update);
 				
 				header('location:'.$path.'');
-			}else //error
+			}else 
+			
+			//error
+			
 			{
 				$_SESSION[reset_password]='failed';
 			   header('location:'.$path.'/reset-password/');

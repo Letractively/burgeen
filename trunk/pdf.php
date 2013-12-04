@@ -22,9 +22,9 @@ $pdf->AddPage();
 if($pakage=='pro')
 {
 $price ='$99';
-}else if($pakage=='global_pro')
+}else if($pakage=='global pro')
 {
-$price ='$299';
+$price ='$199';
 }
 
 $pdf->addSociete( "Ask.Burgeen.Com",
@@ -69,12 +69,12 @@ $tot_prods = array( array ( "px_unit" => 600, "qte" => 1, "tva" => 1 ),
                     array ( "px_unit" =>  10, "qte" => 1, "tva" => 1 ));
 $tab_tva = array( "1"       => 19.6,
                   "2"       => 5.5);
-
+$pdf->total();
 }
 
 
 
 
-$pdf->total();
+
 $pdf->Output();
 ?>
