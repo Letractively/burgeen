@@ -6,8 +6,12 @@ $path = $_SESSION[path];
 if($_GET[status]=='accept')
 {
 //update status become accept. so that the investor and entrepreneur can see the detail each other.
-$q_nudge= "update entrepreneur_nudge set status='accept' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "update nudge set status='accept',investment_id='$_GET[investment_id]' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
+
+//insert investor nudge (in order to make balance) therefore each other can view the detail.
+
+
 //deduct one nudge point
 $q_nudge= "update user set nudge=nudge-1 where user_id='$_SESSION[user_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
@@ -15,18 +19,18 @@ $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 }else if($_GET[status]=='reject')
 {
 //update status become reject.
-$q_nudge= "update entrepreneur_nudge set status='reject' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "update nudge set status='reject' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 }else if($_GET[status]=='delete')
 {
 //delete the nudge
-$q_nudge= "delete from entrepreneur_nudge where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "delete from nudge where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 }else if(!isset($_GET[status]))
 {
-			$q_cek= "select count(*) from entrepreneur_nudge where investor_id='$_SESSION[user_id]' and proposal_id='$_GET[proposal_id]'";
+			$q_cek= "select count(*) from nudge where investor_id='$_SESSION[user_id]' and proposal_id='$_GET[proposal_id]'";
 			$hq_cek= mysql_db_query($DataBase,$q_cek);
 			
 			while(list($nudge_id) = mysql_fetch_row($hq_cek))
@@ -47,7 +51,7 @@ $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 			//insert the nudge
 $nudge_id = uniqid('NUDGE');
 $date = date('Y-m-d G:i:s');
-$q_nudge= "insert into entrepreneur_nudge values ('$nudge_id','$_SESSION[user_id]','$entrepreneur_id','$_GET[proposal_id]','pending','$date')";
+$q_nudge= "insert into nudge values ('$nudge_id','$_SESSION[user_id]','$entrepreneur_id','$_GET[proposal_id]','','pending','$date','investor','entrepreneur')";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 			}
 			}
