@@ -10,7 +10,7 @@
 			$exp = date('Y-m-d G:i:s', strtotime("$date +1 month"));  // 1 month expired
 			$user_id = uniqid('U');
 			$enrypt=md5($_POST[password_user]);
-			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','$_POST[plan]','no_payment','','','$date','$exp')";
+			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','$_POST[plan]','no_payment','','','$date','$exp','0')";
 			$hq_registration	= mysql_db_query($DataBase,$q_registration);
 			
 			}else if($_POST[plan]=='pro' or $_POST[plan]=='global pro')
@@ -19,9 +19,15 @@
 			$user_id = uniqid('U');
 			$transaction_id = uniqid('T');
 			$enrypt=md5($_POST[password_user]);
-			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','$_POST[plan]','visa','','','$date','$exp')";
+			if($_POST[plan]=='pro')
+			{
+			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','$_POST[plan]','visa','','','$date','$exp','10')";
 			$hq_registration	= mysql_db_query($DataBase,$q_registration);
-			
+			}else if($_POST[plan]=='global pro')
+			{
+			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','$_POST[plan]','visa','','','$date','$exp','20')";
+			$hq_registration	= mysql_db_query($DataBase,$q_registration);
+			}
 			date_default_timezone_set('Asia/Singapore');
 			
 			$year = date('Y');
