@@ -11,7 +11,7 @@ $pdf = new PDF_Invoice( 'P', 'mm', 'A4' );
 
 
 
-			$q_get_data= "select transaction.invoice_no,transaction.date,user.first_name,user.last_name,transaction.pakage from transaction,user where user.user_id=transaction.user_id and user.user_id = '$_SESSION[user_id]'";
+			$q_get_data= "select transaction.invoice_no,transaction.date,user.first_name,user.last_name,transaction.pakage from transaction,user where user.user_id=transaction.user_id and user.user_id = '$_SESSION[user_id]' ORDER BY transaction.date DESC";
 			$hq_get_data= mysql_db_query($DataBase,$q_get_data);
 			
 			while(list($invoice_no,$date,$first_name,$last_name,$pakage) = mysql_fetch_row($hq_get_data))
@@ -21,15 +21,28 @@ $pdf->AddPage();
 			
 if($pakage=='pro')
 {
-$price ='$99';
+$price ='S$99';
 }else if($pakage=='global pro')
 {
-$price ='$199';
+$price ='S$199';
+}else if($pakage=='global pro extended')
+{
+$price='S$100';
+}
+if($pakage=='5_nudge')
+{
+$price='S$10';
+}else if($pakage=='10_nudge')
+{
+$price='S$20';
+}else if($pakage=='20_nudge')
+{
+$price='S$40';
 }
 
 $pdf->addSociete( "Ask.Burgeen.Com",
-                  "JCU Campus\n" .
-                  "Upper Thomsond\n".
+                  "JCU UT Campus\n" .
+                  "Upper Thomson\n".
                   "Hotline: (65)-8888888 \n" );
 $pdf->fact_dev( "Invoice No. ", "$invoice_no" );
 
