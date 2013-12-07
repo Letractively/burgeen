@@ -55,13 +55,13 @@ $pdf->addClientAdresse("Dear Mr/Ms. $first_name $last_name");
 
 $cols=array( "No"    => 23,
              "ITEM"  => 78,
-             "QUANTITE"     => 22,
+             "QUANTITY"     => 22,
              "PRICE"      => 26,
              "TOTAL PRICE" => 30);
 $pdf->addCols( $cols);
 $cols=array( "No"    => "L",
              "ITEM"  => "L",
-             "QUANTITE"     => "C",
+             "QUANTITY"     => "C",
              "PRICE"      => "R",
              "TOTAL PRICE" => "R");
 $pdf->addLineFormat( $cols);
@@ -70,7 +70,7 @@ $pdf->addLineFormat($cols);
 $y    = 109;
 $line = array( "No"    => "1.",
                "ITEM"  => "Pakage : $pakage  ",
-               "QUANTITE"     => "1",
+               "QUANTITY"     => "1",
                "PRICE"      => "$price",
                "TOTAL PRICE" => "$price");
 $size = $pdf->addLine( $y, $line );
