@@ -10,17 +10,17 @@
 			
 			
 			//update status pakage
-			if($_POST[plan]=='global pro') // new registration and purchase global pro pakage
+			if($_POST[plan]=='5_nudge') // buy 5 nudge
 			{
-			$q_update_plan= "update user set pakage='$_POST[plan]', payment_method='visa',nudge=nudge+50 where user_id='$_SESSION[user_id]'";
+			$q_update_plan= "update user set nudge=nudge+5, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='pro') //new registration and purchase pro pakage
+			}else if($_POST[plan]=='10_nudge') //buy 10 nudge
 			{
-			$q_update_plan= "update user set pakage='$_POST[plan]', payment_method='visa',nudge=nudge+25 where user_id='$_SESSION[user_id]'";
+			$q_update_plan= "update user set nudge=nudge+10, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='global pro extend') //extend the pakage from pro to global pro
+			}else if($_POST[plan]=='20_nudge') //buy 20 nudge
 			{
-			$q_update_plan= "update user set pakage='global pro', payment_method='visa',nudge=nudge+25 where user_id='$_SESSION[user_id]'";
+			$q_update_plan= "update user set nudge=nudge+20, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
 			}
 			
@@ -34,15 +34,9 @@
 			$year = date('Y');
 			$no_invoice = $sum.'/'.$year;
 			}
-			if(if($_POST[plan]=='global pro extend'))
-			{
-			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','global pro extended','$date','$no_invoice')";
-			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);
-			}else
-			{
 			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','$_POST[plan]','$date','$no_invoice')";
 			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);
-			}
+			
 		
 			header('location:'.$path.'/entrepreneur_dashboard/');
 
