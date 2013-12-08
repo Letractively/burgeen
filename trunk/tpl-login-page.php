@@ -32,7 +32,7 @@ Template Name: Template Login Page
 			<?php	if($_SESSION[login]=='failed' or $_SESSION[login]=='')	{										?>			<div id="wrapper">			<?php			if($_SESSION[login]=='failed')			{			echo "<font color=red><center>Login Failed, try again..</font></br></br>";			}			?>			<Center>			<form action="<?php echo bloginfo('template_url') ?>/login_process.php" method="POST" name="registerform" id="login-form" class="login-form">			<div class="header">			<h1><?php _e('Login Page', APP_TD); ?></h1>						</div>										<div class="content">					<p>						Username<br/>						<input type="text" class="input username" name="username" id="username" value="" />					</p>														<p>						Enter a password<br/>						<input type="password" class="input username" name="user_password" id="user_password" value="" />					</p>				</div>					<div class="footer">												<input type="submit" class="button" name="register" value="<?php _e('LOGIN &rarr;', APP_TD); ?>" />											</div>							</form>								</div>			<?php }else {			echo "login sucessfully..!!";			}			?>			
 			<?php
 				// CONTENT
-				the_content();
+				//the_content();
 
 				echo '<div class="clear h20"><!-- --></div>';
 				

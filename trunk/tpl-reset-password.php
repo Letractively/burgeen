@@ -31,7 +31,7 @@ Template Name: Template Reset Password
 			<?php	if($_SESSION[login]=='success')	{				//you can login but want to change the password						?>			<div id="wrapper">						<Center>			<form action="<?php echo bloginfo('template_url') ?>/reset_process.php" method="POST" name="reset-form" id="reset-form" class="login-form">			<div class="header">			<h1><?php _e('Reset Password', APP_TD); ?></h1>						</div>						<?php						if($_SESSION[reset_password]=='failed'){						?>						<p style="color:red">your old password is wrong</p>												<?php						$_SESSION[reset_password]='';						}												?>				<div class="content">					<p>						Enter Old Password<br/>						<input type="password" class="input username" name="old_password" id="old_password" value="" />					</p>														<p>						Enter New Password<br/>						<input type="password" class="input username" name="new_password_1" id="new_password_1" value="" />					</p>					<p>						Enter New Password again<br/>						<input type="password" class="input username" name="new_password_2" id="new_password_2" value="" />					</p>									</div>					<div class="footer">												<input type="submit" class="button" name="register" value="<?php _e('RESET &rarr;', APP_TD); ?>" />											</div>							</form>								</div>			<?php }else {			//can't login because forgot password.			echo "<br><br>In order to reset the password, you have to login first..!!";			echo "<br>Contact the administrator if you forgot the password";			}			?>			
 			<?php
 				// CONTENT
-				the_content();
+				//the_content();
 
 				echo '<div class="clear h20"><!-- --></div>';
 				
