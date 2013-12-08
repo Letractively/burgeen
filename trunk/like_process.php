@@ -20,7 +20,7 @@
 			}
 			//echo $q_proposal;
 			
-			header('location:'.$path.'/detail-proposal/');
+			header('location:'.$path.'/detail-proposal/?proposal_id='.$_SESSION[proposal_id]);
 
 
 

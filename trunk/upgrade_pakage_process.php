@@ -34,7 +34,7 @@
 			$year = date('Y');
 			$no_invoice = $sum.'/'.$year;
 			}
-			if(if($_POST[plan]=='global pro extend'))
+			if($_POST[plan]=='global pro extend')
 			{
 			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','global pro extended','$date','$no_invoice')";
 			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);

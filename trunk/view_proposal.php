@@ -16,7 +16,7 @@
 		$hq_viewer	= mysql_db_query($DataBase,$q_viewer);
 	
 		}
-			header('location:'.$path.'/detail-proposal/');
+			header('location:'.$path.'/detail-proposal/?proposal_id='.$_GET[proposal_id]);
 
 
 
