@@ -51,6 +51,7 @@ $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 			//insert the nudge
 $nudge_id = uniqid('NUDGE');
 $date = date('Y-m-d G:i:s');
+date_default_timezone_set('Asia/Singapore');
 $q_nudge= "insert into nudge values ('$nudge_id','$_SESSION[user_id]','$entrepreneur_id','$_GET[proposal_id]','','pending','$date','investor','entrepreneur')";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 			}

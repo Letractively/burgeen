@@ -9,7 +9,7 @@
 			
 			
 			
-			header('location:'.$path.'/detail_investor/');
+			header('location:'.$path.'/detail_investor/?investor_id='.$_GET[investor_id]);
 
 
 

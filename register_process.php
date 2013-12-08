@@ -2,8 +2,8 @@
 			include ("database.php");
 			session_start();
 			$path=$_SESSION[path];
-			$date = date('Y-m-d G:i:s');
 			date_default_timezone_set('Asia/Singapore');
+			$date = date('Y-m-d G:i:s');
 			//if you are entrepreneur
 			if($_POST[plan]=='novice')
 			{
@@ -48,6 +48,19 @@
 			$exp = date('Y-m-d G:i:s', strtotime("$date +12 month"));  // 1 year expired
 			$q_registration= "insert into user values ('$user_id','$_POST[account_type]','$_POST[username]','$_POST[first_name]','$_POST[last_name]','$enrypt','$_POST[contact_email]','$_POST[phone_number]','free','no_payment','','','$date','$exp','')";
 			$hq_registration	= mysql_db_query($DataBase,$q_registration);
+			
+			//set investment criteria to empty
+			$investment_id = uniqid('IC');
+			$language_id = uniqid('L');
+			$industry_id = uniqid('I');
+			$q_investment= "insert into investment_criteria values ('$investment_id','$user_id','','','','','','','','','','','$industry_id','','$language_id','','','')";
+			$hq_investment	= mysql_db_query($DataBase,$q_investment);
+			//set empty language
+			$q_investment= "insert into language (language_id,investor_id) values ('$language_id','$user_id')";
+			$hq_investment	= mysql_db_query($DataBase,$q_investment);
+			//set empty industry		
+			$q_investment= "insert into industry (industry_id,investor_id) values ('$industry_id','$user_id')";
+			$hq_investment	= mysql_db_query($DataBase,$q_investment);
 			}
 			
 			

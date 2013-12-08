@@ -14,7 +14,7 @@ $hq_cek= mysql_db_query($DataBase,$q_cek);
 if(mysql_num_rows($hq_cek)==0){
 
 //insert investment criteria
-$q_insert= "insert into investment_criteria values ('$investment_criteria_id','$_SESSION[user_id]','$_POST[location]','$_POST[state]','$industry_id','$_POST[stage]','$language_id','$_POST[starting_range]','$_POST[ending_range]','$_POST[keyword_of_interest]')";
+$q_insert= "insert into investment_criteria values ('$investment_criteria_id','$_SESSION[user_id]','$_POST[title]','$_POST[company]','$_POST[location]','$_POST[state]','$_POST[address]',$_POST[post_code],'$_POST[phone]','$_POST[fax]','$_POST[website]','$_POST[email]','$industry_id','$_POST[stage]','$language_id','$_POST[starting_range]','$_POST[ending_range]','$_POST[keyword_of_interest]')";
 $hq_insert	= mysql_db_query($DataBase,$q_insert);
 
 //insert industry
@@ -29,7 +29,7 @@ $hq_language= mysql_db_query($DataBase,$q_language);
 }else
 {
 //update investment criteria
-$q_update= "update investment_criteria set location='$_POST[location]', state='$_POST[state]',stage= '$_POST[stage]',starting_range='$_POST[starting_range]',ending_range='$_POST[ending_range]',interest='$_POST[keyword_of_interest]' where investor_id='$_SESSION[user_id]'";
+$q_update= "update investment_criteria set title='$_POST[title]',company='$_POST[company]',address='$_POST[address]',post_code='$_POST[post_code]',phone='$_POST[phone]',fax='$_POST[fax]',website='$_POST[website]',email='$_POST[email]',location='$_POST[location]', state='$_POST[state]',stage= '$_POST[stage]',starting_range='$_POST[starting_range]',ending_range='$_POST[ending_range]',interest='$_POST[keyword_of_interest]' where investor_id='$_SESSION[user_id]'";
 $hq_update	= mysql_db_query($DataBase,$q_update);
 
 //update industry
