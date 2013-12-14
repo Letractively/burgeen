@@ -21,6 +21,7 @@ $path=$_SESSION[path];
 			$_SESSION[user_id]=$user_id;
 			$_SESSION[user_type]=$user_type;
 			$_SESSION[nudge]=$nudge;
+			$_SESSION[per_page]=5;  //set 5 records per page to be listed.
 			if($user_type=='entrepreneur')
 			{
 			header('location:'.$path.'/entrepreneur_dashboard/');
