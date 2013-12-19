@@ -6,7 +6,7 @@ $path = $_SESSION[path];
 if($_GET[status]=='accept')
 {
 //update status become accept. so that the investor and entrepreneur can see the detail each other.
-$q_nudge= "update nudge set status='accept',investment_id='$_GET[investment_id]' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "update nudge set status='accepted',investment_id='$_GET[investment_id]' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 //insert investor nudge (in order to make balance) therefore each other can view the detail.
@@ -19,7 +19,7 @@ $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 }else if($_GET[status]=='reject')
 {
 //update status become reject.
-$q_nudge= "update nudge set status='reject' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "update nudge set status='rejected' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 }else if($_GET[status]=='delete')

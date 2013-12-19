@@ -15,7 +15,7 @@
 				$q_update= "update user set password='$enrypt' where username='$_SESSION[username]'";
 				$hq_update	= mysql_db_query($DataBase,$q_update);
 				
-				header('location:'.$path.'');
+				header('location:'.$path.'/edit-profile?reset=success');
 			}else 
 			
 			//error
