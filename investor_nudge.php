@@ -13,7 +13,7 @@ while(list($nudge) = mysql_fetch_row($hq_cek))
 if($nudge>0)
 {
 //update status become accept. 
-$q_nudge= "update nudge set status='accept' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]' and entrepreneur_id='$_GET[entrepreneur_id]'";
+$q_nudge= "update nudge set status='accepted' where proposal_id='$_GET[proposal_id]' and investor_id='$_GET[investor_id]' and entrepreneur_id='$_GET[entrepreneur_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 //deduct one nudge point
@@ -27,7 +27,7 @@ $error=2;
 }else if($_GET[status]=='reject')
 {
 //update status become reject.
-$q_nudge= "update nudge set status='reject' where entrepreneur_id='$_GET[entrepreneur_id]' and investor_id='$_GET[investor_id]'";
+$q_nudge= "update nudge set status='rejected' where entrepreneur_id='$_GET[entrepreneur_id]' and investor_id='$_GET[investor_id]'";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 
 }else if($_GET[status]=='delete')
@@ -60,7 +60,7 @@ $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
 			$hq_get= mysql_db_query($DataBase,$q_get);
 			while(list($investor_id) = mysql_fetch_row($hq_get))
 			{
-$q_get= "select proposal_id from proposal where user_id='$_SESSION[user_id]'";
+$q_get= "select proposal_id from proposal where user_id='$_SESSION[user_id]' and status='active'";
 $hq_get= mysql_db_query($DataBase,$q_get);	
 while(list($proposal_id) = mysql_fetch_row($hq_get))
 {		
@@ -70,6 +70,11 @@ date_default_timezone_set('Asia/Singapore');
 $date = date('Y-m-d G:i:s');
 $q_nudge= "insert into nudge values ('$nudge_id','$investor_id','$_SESSION[user_id]','$proposal_id','$_GET[investment_id]','pending','$date','entrepreneur','investor')";
 $hq_nudge	= mysql_db_query($DataBase,$q_nudge);
+}
+//if the entrepreneur has not created the proposal, they can't nudge anyone. because one nudge contains 1 sender(proposal) and 1 receiver(investment criteria)
+if(mysql_num_rows($hq_get)==0) 
+{
+$error=3;
 }
 			}
 			}
@@ -85,12 +90,14 @@ if($error==1) //if the entrepreneur does not have enough nudge and go to buy fir
 {	//redirect to purchase nudge page
 
 header('location:'.$path.'/buy_nudge/?status=nudge_empty');
-}if($error==2) //if the entrepreneur does not have enough nudge : login as investor
+}else if($error==2) //if the entrepreneur does not have enough nudge : login as investor
 {
 header('location:'.$path.'/investor_dashboard/?error_message=yes');
 
-}else
-{			
+}else if($error==3)//if entrepreneur has not created any proposal.
+{
+header('location:'.$path.'/entrepreneur_dashboard/?error_message=yes');
+}else{			
 			
 if($_SESSION[user_type]=='entrepreneur')
 {
