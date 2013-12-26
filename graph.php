@@ -42,11 +42,11 @@ $graph->yaxis->HideLine(false);
 $graph->yaxis->HideTicks(false,false);
 $graph->xaxis->title->Set('Year');
 $graph->xaxis->title->SetMargin(0);
-$graph->xaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
+
 
 $graph->yaxis->title->Set('SGD');
 $graph->yaxis->title->SetMargin(0);
-$graph->yaxis->title->SetFont(FF_ARIAL,FS_NORMAL,11);
+
 
 
 $graph->xgrid->Show();
