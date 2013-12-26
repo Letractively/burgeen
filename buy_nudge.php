@@ -1,6 +1,7 @@
 <?php
  session_start();
  include('database.php');
+require ("mail/class.phpmailer.php");
 
 			date_default_timezone_set('Asia/Singapore');
 			
@@ -37,7 +38,42 @@
 			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','$_POST[plan]','$date','$no_invoice')";
 			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);
 			
+	$mail = new PHPMailer();
+ $mail->From     = "hendranata@natawebs.com";
+ $mail->FromName = "Burgeen Admin";
+  
+ $mail->IsSMTP(); 
+  
+ $mail->SMTPAuth = true;     // turn of SMTP authentication
+ $mail->Username = "hendranata@natawebs.com";  // SMTP username
+ $mail->Password = "hendranata"; // SMTP password
+
+ $mail->Host = "wirobrajan.idwebhost.com";
+ $mail->Port = 25;
+  
+ $mail->SMTPDebug  = 2; // Enables SMTP debug information (for testing, remove this line on production mode)
+ // 1 = errors and messages
+ // 2 = messages only
+   
+ $mail->Sender   =  "hendranata@natawebs.com";// $bounce_email;
+ $mail->ConfirmReadingTo  = "$_SESSION[contact_email]";
+  
+ $mail->AddReplyTo("hendranata@natawebs.com","Hendranata");
+ $mail->IsHTML(true); //turn on to send html email
+ $mail->Subject = "SUCESSFULLY PURCHASE NUDGE";
+ 
+
+$mail->MsgHTML(file_get_contents('nudge_email.php'));
+  
+ $mail->AddAddress("hendranatas@yahoo.com","Hendranata");
+ 
+	
 		
 			header('location:'.$path.'/entrepreneur_dashboard/');
 
+			if($mail->Send()){
+  $mail->ClearAddresses();  
+ }
+			
+			
 ?>
