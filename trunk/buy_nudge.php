@@ -10,16 +10,16 @@ require ("mail/class.phpmailer.php");
 			$date = date('Y-m-d G:i:s');
 			
 			
-			//update status pakage
-			if($_POST[plan]=='5_nudge') // buy 5 nudge
+			//update status package
+			if($_POST[plan]=='5_nudge') // buy 5 nudges
 			{
 			$q_update_plan= "update user set nudge=nudge+5, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='10_nudge') //buy 10 nudge
+			}else if($_POST[plan]=='10_nudge') //buy 10 nudges
 			{
 			$q_update_plan= "update user set nudge=nudge+10, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='20_nudge') //buy 20 nudge
+			}else if($_POST[plan]=='20_nudge') //buy 20 nudges
 			{
 			$q_update_plan= "update user set nudge=nudge+20, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
@@ -44,7 +44,7 @@ require ("mail/class.phpmailer.php");
   
  $mail->IsSMTP(); 
   
- $mail->SMTPAuth = true;     // turn of SMTP authentication
+ $mail->SMTPAuth = true;     // turn on SMTP authentication
  $mail->Username = "hendranata@natawebs.com";  // SMTP username
  $mail->Password = "hendranata"; // SMTP password
 
