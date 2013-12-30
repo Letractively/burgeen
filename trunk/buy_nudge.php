@@ -10,16 +10,16 @@ require ("mail/class.phpmailer.php");
 			$date = date('Y-m-d G:i:s');
 			
 			
-			//update status package
-			if($_POST[plan]=='5_nudge') // buy 5 nudges
+			//update status pakage
+			if($_POST[plan]=='5_nudge') // buy 5 nudge
 			{
 			$q_update_plan= "update user set nudge=nudge+5, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='10_nudge') //buy 10 nudges
+			}else if($_POST[plan]=='10_nudge') //buy 10 nudge
 			{
 			$q_update_plan= "update user set nudge=nudge+10, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
-			}else if($_POST[plan]=='20_nudge') //buy 20 nudges
+			}else if($_POST[plan]=='20_nudge') //buy 20 nudge
 			{
 			$q_update_plan= "update user set nudge=nudge+20, payment_method='visa' where user_id='$_SESSION[user_id]'";
 			$hq_update_plan	= mysql_db_query($DataBase,$q_update_plan);
@@ -38,34 +38,46 @@ require ("mail/class.phpmailer.php");
 			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','$_POST[plan]','$date','$no_invoice')";
 			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);
 			
-	$mail = new PHPMailer();
- $mail->From     = "hendranata@natawebs.com";
+$query="select * from user where user_id='$_SESSION[user_id]'";
+$result   = mysql_query($query);
+while ($row = mysql_fetch_assoc($result)) 
+{
+$_SESSION[firstname_email]=$row['first_name'];			
+$_SESSION[lastname_email]=$row['last_name'];
+}
+$_SESSION[nudge_email]=$_POST[plan];			
+			
+$mail = new PHPMailer();
+ $mail->From     = "admin@natawebs.com";
  $mail->FromName = "Burgeen Admin";
   
  $mail->IsSMTP(); 
   
- $mail->SMTPAuth = true;     // turn on SMTP authentication
- $mail->Username = "hendranata@natawebs.com";  // SMTP username
- $mail->Password = "hendranata"; // SMTP password
+ $mail->SMTPAuth = true;     // turn of SMTP authentication
+ $mail->Username = "admin@natawebs.com";  // SMTP username
+ $mail->Password = "admin"; // SMTP password
 
- $mail->Host = "wirobrajan.idwebhost.com";
+ $mail->Host = "mail.natawebs.com";
  $mail->Port = 25;
   
  $mail->SMTPDebug  = 2; // Enables SMTP debug information (for testing, remove this line on production mode)
  // 1 = errors and messages
  // 2 = messages only
    
- $mail->Sender   =  "hendranata@natawebs.com";// $bounce_email;
+ $mail->Sender   =  "admin@natawebs.com";// $bounce_email;
  $mail->ConfirmReadingTo  = "$_SESSION[contact_email]";
   
- $mail->AddReplyTo("hendranata@natawebs.com","Hendranata");
+ $mail->AddReplyTo("admin@natawebs.com","Hendranata");
  $mail->IsHTML(true); //turn on to send html email
  $mail->Subject = "SUCESSFULLY PURCHASE NUDGE";
  
+ob_start();
+include 'nudge_email.php'; 
+$message = ob_get_clean();
+$mail->MsgHTML($message); 
 
-$mail->MsgHTML(file_get_contents('nudge_email.php'));
   
- $mail->AddAddress("hendranatas@yahoo.com","Hendranata");
+ $mail->AddAddress("$_SESSION[contact_email]","Hendranata");
  
 	
 		

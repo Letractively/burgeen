@@ -1,8 +1,14 @@
+<?php
+session_start();
 
+?>
 <html>
+<p>Hello <?php echo $_SESSION[firstname_email]." ".$_SESSION[lastname_email]; ?></p>
+</br>
+<hr>
 
-
-<p>Your password has been reset to: q1w2e3r4</p>
+<p>Username: <?php echo $_SESSION[username_email]; ?></p>
+<p>Your password has been reset to: <?php echo $_SESSION[new_password]; ?></p>
 </br>
 <p>---------------------------------------------------------------------------------------------------</p>
 </br>

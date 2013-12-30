@@ -43,16 +43,27 @@ require ("mail/class.phpmailer.php");
 			$q_transaction= "insert into transaction values ('$transaction_id','$_SESSION[user_id]','$_POST[plan]','$date','$no_invoice')";
 			$hq_transaction	= mysql_db_query($DataBase,$q_transaction);
 			}
-		
+
+$query="select * from user where user_id='$_SESSION[user_id]'";
+$result   = mysql_query($query);
+while ($row = mysql_fetch_assoc($result)) {			
+$_SESSION[firstname_email]=$row['first_name'];
+$_SESSION[lastname_email]=$row['last_name'];
+}
+
+$_SESSION[package_email] = $_POST[plan];
+
+
+			
 $mail = new PHPMailer();
- $mail->From     = "hendranata@natawebs.com";
+ $mail->From     = "admin@natawebs.com";
  $mail->FromName = "Burgeen Admin";
   
  $mail->IsSMTP(); 
   
  $mail->SMTPAuth = true;     // turn of SMTP authentication
- $mail->Username = "hendranata@natawebs.com";  // SMTP username
- $mail->Password = "hendranata"; // SMTP password
+ $mail->Username = "admin@natawebs.com";  // SMTP username
+ $mail->Password = "admin"; // SMTP password
 
  $mail->Host = "mail.natawebs.com";
  $mail->Port = 25;
@@ -61,17 +72,20 @@ $mail = new PHPMailer();
  // 1 = errors and messages
  // 2 = messages only
    
- $mail->Sender   =  "hendranata@natawebs.com";// $bounce_email;
+ $mail->Sender   =  "admin@natawebs.com";// $bounce_email;
  $mail->ConfirmReadingTo  = "$_SESSION[contact_email]";
   
- $mail->AddReplyTo("hendranata@natawebs.com","Hendranata");
+ $mail->AddReplyTo("admin@natawebs.com","Hendranata");
  $mail->IsHTML(true); //turn on to send html email
  $mail->Subject = "SUCESSFULLY UPGRADE PACKAGE";
  
+ob_start();
+include 'upgrade_email.php'; 
+$message = ob_get_clean();
+$mail->MsgHTML($message); 
 
-$mail->MsgHTML(file_get_contents('upgrade_email.php'));
   
- $mail->AddAddress("hendranatas@yahoo.com","Hendranata");		
+ $mail->AddAddress("$_SESSION[contact_email]","Hendranata");		
 		
 		
 		

@@ -16,18 +16,18 @@ $error=1;
 if(mysql_num_rows($hq_cek)==0)
 {
 
-echo "This Username is Available";
+echo "This Username is Available                          ";
 
 }
 if($error==1)
 {
 
-echo "Username is already used, Please change";
+echo "Username is already used, Please change              ";
 
 }else
 {
 
-echo "This Username is Available";
+echo "This Username is Available                          ";
 
 }
 

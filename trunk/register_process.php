@@ -69,16 +69,21 @@
 		
 			
 			}
-	
+
+$_SESSION[firstname_email]=$_POST[first_name];			
+$_SESSION[lastname_email]=$_POST[last_name];	
+$_SESSION[username_email]=$_POST[username];
+$_SESSION[password_email]=$_POST[password_user];
+			
 	$mail = new PHPMailer();
- $mail->From     = "hendranata@natawebs.com";
+ $mail->From     = "admin@natawebs.com";
  $mail->FromName = "Burgeen Admin";
   
  $mail->IsSMTP(); 
   
  $mail->SMTPAuth = true;     // turn of SMTP authentication
- $mail->Username = "hendranata@natawebs.com";  // SMTP username
- $mail->Password = "hendranata"; // SMTP password
+ $mail->Username = "admin@natawebs.com";  // SMTP username
+ $mail->Password = "admin"; // SMTP password
 
  $mail->Host = "mail.natawebs.com";
  $mail->Port = 25;
@@ -87,17 +92,20 @@
  // 1 = errors and messages
  // 2 = messages only
    
- $mail->Sender   =  "hendranata@natawebs.com";// $bounce_email;
+ $mail->Sender   =  "admin@natawebs.com";// $bounce_email;
  $mail->ConfirmReadingTo  = "$_POST[contact_email]";
   
- $mail->AddReplyTo("hendranata@natawebs.com","Hendranata");
+ $mail->AddReplyTo("admin@natawebs.com","Hendranata");
  $mail->IsHTML(true); //turn on to send html email
  $mail->Subject = "YOUR ACCOUNT HAS BEEN ACTIVATED";
  
+ob_start();
+include 'registration_email.php'; 
+$message = ob_get_clean();
+$mail->MsgHTML($message); 
 
-$mail->MsgHTML(file_get_contents('registration_email.php'));
   
- $mail->AddAddress("hendranatas@yahoo.com","Hendranata");
+ $mail->AddAddress("$_POST[contact_email]","Hendranata");
  
 	
 	
