@@ -12,20 +12,24 @@ if (isset($_POST['email_address'])){
     // If the count is equal to one, we will send message other wise display an error message.
     if($count==1)
     {
-$new_password=md5('q1w2e3r4');
+$_SESSION[new_password]=uniqid();
+$new_password=md5($_SESSION[new_password]);
 while ($row = mysql_fetch_assoc($result)) {
 $q_update= "update user set password='$new_password' where contact_email='$_POST[email_address]'";
 $hq_update	= mysql_db_query($DataBase,$q_update);
-}
+$_SESSION[username_email]=$row['username'];
+$_SESSION[firstname_email]=$row['first_name'];
+$_SESSION[lastname_email]=$row['last_name'];
+
  $mail = new PHPMailer();
- $mail->From     = "hendranata@natawebs.com";
+ $mail->From     = "admin@natawebs.com";
  $mail->FromName = "Burgeen Admin";
   
  $mail->IsSMTP(); 
   
  $mail->SMTPAuth = true;     // turn of SMTP authentication
- $mail->Username = "hendranata@natawebs.com";  // SMTP username
- $mail->Password = "hendranata"; // SMTP password
+ $mail->Username = "admin@natawebs.com";  // SMTP username
+ $mail->Password = "admin"; // SMTP password
 
  $mail->Host = "mail.natawebs.com";
  $mail->Port = 25;
@@ -34,17 +38,19 @@ $hq_update	= mysql_db_query($DataBase,$q_update);
  // 1 = errors and messages
  // 2 = messages only
    
- $mail->Sender   =  "hendranata@natawebs.com";// $bounce_email;
+ $mail->Sender   =  "admin@natawebs.com";// $bounce_email;
  $mail->ConfirmReadingTo  = "$_POST[email_address]";
   
- $mail->AddReplyTo("hendranata@natawebs.com","Hendranata");
+ $mail->AddReplyTo("admin@natawebs.com","Hendranata");
  $mail->IsHTML(true); //turn on to send html email
  $mail->Subject = "RESET PASSWORD (ict1.natawebs.com)";
  
-
-$mail->MsgHTML(file_get_contents('email.php'));
+ob_start();
+include 'email.php'; 
+$message = ob_get_clean();
+$mail->MsgHTML($message); 
   
- $mail->AddAddress("hendranatas@yahoo.com","Hendranata");
+ $mail->AddAddress("$_POST[email_address]","Hendranata");
    
 $_SESSION[email_error]=0;
 header('location:'.$path.'/forgot_password');
@@ -54,7 +60,7 @@ header('location:'.$path.'/forgot_password');
   $mail->ClearAddresses();  
  }
 
-	
+	}
     }else
 	{
 
