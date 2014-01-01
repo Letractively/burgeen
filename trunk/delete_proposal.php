@@ -8,6 +8,6 @@ $proposal_id = $_GET[proposal_id];
 				$q_delete= "delete from proposal where proposal_id='$proposal_id'";
 				$hq_delete	= mysql_db_query($DataBase,$q_delete);
 			//echo $q_update;
-			header('location:'.$path'/entrepreneur_dashboard/');
+			header('location:'.$path.'/entrepreneur_dashboard/');
 
 ?>
