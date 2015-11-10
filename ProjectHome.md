@@ -1,0 +1,1 @@
+This website is meant for Young Entrepreneurs and Investors who want to start a new business and are looking for business partners.
